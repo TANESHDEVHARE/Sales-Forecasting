@@ -1,6 +1,6 @@
 # Sales Forecasting ML Dashboard 🚀
 
-[![LIVE DEMO](https://sales-forecasting-taneshdevhare.streamlit.app/)](https://streamlit.io)
+[LIVE DEMO](https://sales-forecasting-taneshdevhare.streamlit.app)
 
 ## 🎯 Project Overview
 
