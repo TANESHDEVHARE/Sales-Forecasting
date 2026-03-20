@@ -1,6 +1,6 @@
 # Sales Forecasting ML Dashboard 🚀
 
-[![LIVE DEMO](https://sales-forecasting-taneshdevhare.streamlit.app/)]
+[![LIVE DEMO](https://sales-forecasting-taneshdevhare.streamlit.app/)](https://streamlit.io)
 
 ## 🎯 Project Overview
 
@@ -34,7 +34,7 @@ streamlit run app.py  # http://localhost:8501
 
 ```
 SalesForecasting/
-├── app.py                 #  Streamlit UI + ModelRegistry
+├── app.py                 # 🎭 Streamlit UI + ModelRegistry
 ├── app/
 │   ├── config.py         # Paths, FEATURE_COLS (28 feats)
 │   ├── model_loader.py   # Loads *.pkl + features_clean.csv
@@ -166,6 +166,7 @@ def predict(body: ForecastRequest):
 - **app/config.py**: `FEATURE_COLS` (28 engineered features: lags, rmeans, holidays)
 - **data/raw/Forecasting Case- Study.xlsx**: Source (sales by state/week)
 - **experiment.ipynb**: Full pipeline (80% accuracy boost via lags/holidays)
+
 
 
 ---
