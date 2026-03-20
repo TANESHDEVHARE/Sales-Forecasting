@@ -1,0 +1,6 @@
+{
+  "best_model": "XGBoost",
+  "avg_rmse": 6453528.2,
+  "avg_mae": 5457260.9,
+  "avg_mape": 2.54
+}

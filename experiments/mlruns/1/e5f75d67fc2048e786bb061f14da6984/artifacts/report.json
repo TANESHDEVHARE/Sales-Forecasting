@@ -1,0 +1,4544 @@
+{
+  "Gradient Boosting": {
+    "baseline": {
+      "avg_mae": 4248644.09,
+      "avg_rmse": 5097182.36,
+      "avg_mape": 2.1
+    },
+    "tuned": {
+      "avg_mae": 5788317.61,
+      "avg_rmse": 6813835.83,
+      "avg_mape": 2.7
+    },
+    "per_state_baseline": {
+      "Alabama": {
+        "MAE": 4738604.64,
+        "RMSE": 5751872.18,
+        "MAPE": 2.34
+      },
+      "Arizona": {
+        "MAE": 9173616.24,
+        "RMSE": 10936922.39,
+        "MAPE": 4.07
+      },
+      "Arkansas": {
+        "MAE": 1516603.9,
+        "RMSE": 1743868.74,
+        "MAPE": 1.38
+      },
+      "California": {
+        "MAE": 20089600.48,
+        "RMSE": 23460796.38,
+        "MAPE": 2.4
+      },
+      "Colorado": {
+        "MAE": 2581697.85,
+        "RMSE": 3357620.8,
+        "MAPE": 1.51
+      },
+      "Connecticut": {
+        "MAE": 1703506.78,
+        "RMSE": 2196377.94,
+        "MAPE": 1.94
+      },
+      "Florida": {
+        "MAE": 26252902.72,
+        "RMSE": 29597703.33,
+        "MAPE": 3.5
+      },
+      "Georgia": {
+        "MAE": 6770764.45,
+        "RMSE": 7994439.24,
+        "MAPE": 1.82
+      },
+      "Illinois": {
+        "MAE": 6198730.72,
+        "RMSE": 7230101.24,
+        "MAPE": 1.97
+      },
+      "Indiana": {
+        "MAE": 3374329.55,
+        "RMSE": 4148183.19,
+        "MAPE": 1.54
+      },
+      "Iowa": {
+        "MAE": 2118045.65,
+        "RMSE": 2516539.96,
+        "MAPE": 1.84
+      },
+      "Kansas": {
+        "MAE": 1768842.35,
+        "RMSE": 2312948.89,
+        "MAPE": 1.93
+      },
+      "Kentucky": {
+        "MAE": 2990450.92,
+        "RMSE": 3462761.98,
+        "MAPE": 1.75
+      },
+      "Louisiana": {
+        "MAE": 3652465.81,
+        "RMSE": 4189489.12,
+        "MAPE": 2.03
+      },
+      "Maine": {
+        "MAE": 1442149.44,
+        "RMSE": 1685038.13,
+        "MAPE": 3.09
+      },
+      "Maryland": {
+        "MAE": 3013866.55,
+        "RMSE": 3599368.5,
+        "MAPE": 1.9
+      },
+      "Massachusetts": {
+        "MAE": 2597441.21,
+        "RMSE": 3077097.86,
+        "MAPE": 1.43
+      },
+      "Michigan": {
+        "MAE": 5556122.37,
+        "RMSE": 6558596.21,
+        "MAPE": 1.95
+      },
+      "Minnesota": {
+        "MAE": 2470948.8,
+        "RMSE": 3084097.02,
+        "MAPE": 1.62
+      },
+      "Mississippi": {
+        "MAE": 2123836.3,
+        "RMSE": 2730371.86,
+        "MAPE": 1.74
+      },
+      "Missouri": {
+        "MAE": 3596856.99,
+        "RMSE": 4254764.97,
+        "MAPE": 1.84
+      },
+      "Nebraska": {
+        "MAE": 1473039.47,
+        "RMSE": 1820292.26,
+        "MAPE": 2.34
+      },
+      "Nevada": {
+        "MAE": 2610246.06,
+        "RMSE": 3014654.47,
+        "MAPE": 2.56
+      },
+      "New Hampshire": {
+        "MAE": 1398547.72,
+        "RMSE": 1909332.64,
+        "MAPE": 2.58
+      },
+      "New Mexico": {
+        "MAE": 1694753.52,
+        "RMSE": 2086979.75,
+        "MAPE": 2.32
+      },
+      "New York": {
+        "MAE": 7311557.74,
+        "RMSE": 9487544.61,
+        "MAPE": 1.71
+      },
+      "North Carolina": {
+        "MAE": 4418010.95,
+        "RMSE": 5214751.87,
+        "MAPE": 1.26
+      },
+      "Ohio": {
+        "MAE": 4192249.27,
+        "RMSE": 5009452.56,
+        "MAPE": 1.15
+      },
+      "Oklahoma": {
+        "MAE": 2640544.04,
+        "RMSE": 3077132.89,
+        "MAPE": 1.79
+      },
+      "Oregon": {
+        "MAE": 3520034.35,
+        "RMSE": 4039954.98,
+        "MAPE": 3.12
+      },
+      "Pennsylvania": {
+        "MAE": 4836136.54,
+        "RMSE": 6034094.79,
+        "MAPE": 1.36
+      },
+      "Rhode Island": {
+        "MAE": 630673.87,
+        "RMSE": 755541.61,
+        "MAPE": 2.39
+      },
+      "South Carolina": {
+        "MAE": 2148546.14,
+        "RMSE": 2913309.95,
+        "MAPE": 1.1
+      },
+      "South Dakota": {
+        "MAE": 517343.96,
+        "RMSE": 647807.0,
+        "MAPE": 1.85
+      },
+      "Tennessee": {
+        "MAE": 4617964.72,
+        "RMSE": 5386052.54,
+        "MAPE": 1.8
+      },
+      "Texas": {
+        "MAE": 7638457.5,
+        "RMSE": 10205514.49,
+        "MAPE": 0.87
+      },
+      "Utah": {
+        "MAE": 1137465.94,
+        "RMSE": 1603933.32,
+        "MAPE": 1.4
+      },
+      "Vermont": {
+        "MAE": 509288.59,
+        "RMSE": 576647.78,
+        "MAPE": 2.8
+      },
+      "Virginia": {
+        "MAE": 6155208.6,
+        "RMSE": 7129042.93,
+        "MAPE": 2.13
+      },
+      "Washington": {
+        "MAE": 4800131.25,
+        "RMSE": 5851174.35,
+        "MAPE": 2.61
+      },
+      "West Virginia": {
+        "MAE": 2837942.71,
+        "RMSE": 3488667.97,
+        "MAPE": 3.74
+      },
+      "Wisconsin": {
+        "MAE": 3021893.8,
+        "RMSE": 3993153.0,
+        "MAPE": 1.97
+      },
+      "Wyoming": {
+        "MAE": 850275.42,
+        "RMSE": 1044845.96,
+        "MAPE": 4.02
+      }
+    },
+    "per_state_tuned": {
+      "Alabama": {
+        "MAE": 8644605.77,
+        "RMSE": 9697240.68,
+        "MAPE": 4.2
+      },
+      "Arizona": {
+        "MAE": 12315613.88,
+        "RMSE": 14312103.61,
+        "MAPE": 5.46
+      },
+      "Arkansas": {
+        "MAE": 5093965.37,
+        "RMSE": 5530091.19,
+        "MAPE": 4.61
+      },
+      "California": {
+        "MAE": 21403869.62,
+        "RMSE": 27380383.2,
+        "MAPE": 2.52
+      },
+      "Colorado": {
+        "MAE": 2117924.73,
+        "RMSE": 2711569.43,
+        "MAPE": 1.24
+      },
+      "Connecticut": {
+        "MAE": 2223608.49,
+        "RMSE": 2608704.96,
+        "MAPE": 2.5
+      },
+      "Florida": {
+        "MAE": 31416707.31,
+        "RMSE": 34517737.98,
+        "MAPE": 4.19
+      },
+      "Georgia": {
+        "MAE": 6917237.47,
+        "RMSE": 8447770.3,
+        "MAPE": 1.86
+      },
+      "Illinois": {
+        "MAE": 11430321.13,
+        "RMSE": 13340835.13,
+        "MAPE": 3.6
+      },
+      "Indiana": {
+        "MAE": 5061955.8,
+        "RMSE": 5953796.66,
+        "MAPE": 2.29
+      },
+      "Iowa": {
+        "MAE": 2385036.87,
+        "RMSE": 2740011.22,
+        "MAPE": 2.06
+      },
+      "Kansas": {
+        "MAE": 2292327.73,
+        "RMSE": 2822310.87,
+        "MAPE": 2.51
+      },
+      "Kentucky": {
+        "MAE": 3170682.58,
+        "RMSE": 4017344.17,
+        "MAPE": 1.84
+      },
+      "Louisiana": {
+        "MAE": 5491284.11,
+        "RMSE": 6471531.81,
+        "MAPE": 3.01
+      },
+      "Maine": {
+        "MAE": 1183097.38,
+        "RMSE": 1445888.3,
+        "MAPE": 2.59
+      },
+      "Maryland": {
+        "MAE": 2536010.01,
+        "RMSE": 3266916.2,
+        "MAPE": 1.59
+      },
+      "Massachusetts": {
+        "MAE": 4865055.16,
+        "RMSE": 5968712.43,
+        "MAPE": 2.63
+      },
+      "Michigan": {
+        "MAE": 4726001.81,
+        "RMSE": 6194840.62,
+        "MAPE": 1.66
+      },
+      "Minnesota": {
+        "MAE": 2697291.6,
+        "RMSE": 3616297.83,
+        "MAPE": 1.77
+      },
+      "Mississippi": {
+        "MAE": 2983863.25,
+        "RMSE": 3579674.73,
+        "MAPE": 2.45
+      },
+      "Missouri": {
+        "MAE": 6659788.8,
+        "RMSE": 7596318.26,
+        "MAPE": 3.39
+      },
+      "Nebraska": {
+        "MAE": 1817907.82,
+        "RMSE": 2134268.2,
+        "MAPE": 2.89
+      },
+      "Nevada": {
+        "MAE": 2032213.3,
+        "RMSE": 2456970.76,
+        "MAPE": 2.01
+      },
+      "New Hampshire": {
+        "MAE": 1411039.58,
+        "RMSE": 1784743.7,
+        "MAPE": 2.59
+      },
+      "New Mexico": {
+        "MAE": 2381716.97,
+        "RMSE": 2731515.34,
+        "MAPE": 3.24
+      },
+      "New York": {
+        "MAE": 8326706.46,
+        "RMSE": 10209967.51,
+        "MAPE": 1.91
+      },
+      "North Carolina": {
+        "MAE": 7231537.39,
+        "RMSE": 7947515.16,
+        "MAPE": 2.04
+      },
+      "Ohio": {
+        "MAE": 8961282.85,
+        "RMSE": 10251172.96,
+        "MAPE": 2.43
+      },
+      "Oklahoma": {
+        "MAE": 6317254.16,
+        "RMSE": 6897274.2,
+        "MAPE": 4.29
+      },
+      "Oregon": {
+        "MAE": 3162008.01,
+        "RMSE": 3909853.57,
+        "MAPE": 2.77
+      },
+      "Pennsylvania": {
+        "MAE": 6195055.44,
+        "RMSE": 7525370.82,
+        "MAPE": 1.75
+      },
+      "Rhode Island": {
+        "MAE": 989948.43,
+        "RMSE": 1118450.2,
+        "MAPE": 3.72
+      },
+      "South Carolina": {
+        "MAE": 6392934.29,
+        "RMSE": 7041626.89,
+        "MAPE": 3.26
+      },
+      "South Dakota": {
+        "MAE": 608741.33,
+        "RMSE": 828704.27,
+        "MAPE": 2.2
+      },
+      "Tennessee": {
+        "MAE": 6776701.25,
+        "RMSE": 7833592.53,
+        "MAPE": 2.62
+      },
+      "Texas": {
+        "MAE": 18850549.06,
+        "RMSE": 22382327.52,
+        "MAPE": 2.1
+      },
+      "Utah": {
+        "MAE": 1308581.57,
+        "RMSE": 1672573.68,
+        "MAPE": 1.58
+      },
+      "Vermont": {
+        "MAE": 358713.79,
+        "RMSE": 395560.71,
+        "MAPE": 1.97
+      },
+      "Virginia": {
+        "MAE": 6953155.94,
+        "RMSE": 7985040.06,
+        "MAPE": 2.42
+      },
+      "Washington": {
+        "MAE": 6048246.09,
+        "RMSE": 7035608.09,
+        "MAPE": 3.21
+      },
+      "West Virginia": {
+        "MAE": 3255305.5,
+        "RMSE": 3910489.35,
+        "MAPE": 4.28
+      },
+      "Wisconsin": {
+        "MAE": 3338885.9,
+        "RMSE": 4003490.9,
+        "MAPE": 2.17
+      },
+      "Wyoming": {
+        "MAE": 562923.42,
+        "RMSE": 718744.77,
+        "MAPE": 2.67
+      }
+    },
+    "best_params": {
+      "Alabama": {
+        "subsample": 0.7,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 7,
+        "learning_rate": 0.1
+      },
+      "Arizona": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 5,
+        "learning_rate": 0.1
+      },
+      "Arkansas": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "log2",
+        "max_depth": 7,
+        "learning_rate": 0.1
+      },
+      "California": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 5,
+        "learning_rate": 0.1
+      },
+      "Colorado": {
+        "subsample": 1.0,
+        "n_estimators": 300,
+        "min_samples_split": 10,
+        "min_samples_leaf": 4,
+        "max_features": 0.5,
+        "max_depth": 3,
+        "learning_rate": 0.1
+      },
+      "Connecticut": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "log2",
+        "max_depth": 7,
+        "learning_rate": 0.1
+      },
+      "Florida": {
+        "subsample": 1.0,
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 9,
+        "learning_rate": 0.05
+      },
+      "Georgia": {
+        "subsample": 0.7,
+        "n_estimators": 200,
+        "min_samples_split": 10,
+        "min_samples_leaf": 2,
+        "max_features": 0.5,
+        "max_depth": 7,
+        "learning_rate": 0.1
+      },
+      "Illinois": {
+        "subsample": 0.7,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 7,
+        "learning_rate": 0.1
+      },
+      "Indiana": {
+        "subsample": 0.9,
+        "n_estimators": 500,
+        "min_samples_split": 10,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 7,
+        "learning_rate": 0.03
+      },
+      "Iowa": {
+        "subsample": 0.9,
+        "n_estimators": 500,
+        "min_samples_split": 2,
+        "min_samples_leaf": 4,
+        "max_features": 0.5,
+        "max_depth": 5,
+        "learning_rate": 0.03
+      },
+      "Kansas": {
+        "subsample": 1.0,
+        "n_estimators": 200,
+        "min_samples_split": 10,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 7,
+        "learning_rate": 0.03
+      },
+      "Kentucky": {
+        "subsample": 1.0,
+        "n_estimators": 200,
+        "min_samples_split": 10,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 7,
+        "learning_rate": 0.03
+      },
+      "Louisiana": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 5,
+        "learning_rate": 0.1
+      },
+      "Maine": {
+        "subsample": 0.7,
+        "n_estimators": 500,
+        "min_samples_split": 2,
+        "min_samples_leaf": 2,
+        "max_features": 0.5,
+        "max_depth": 7,
+        "learning_rate": 0.1
+      },
+      "Maryland": {
+        "subsample": 1.0,
+        "n_estimators": 200,
+        "min_samples_split": 10,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 7,
+        "learning_rate": 0.03
+      },
+      "Massachusetts": {
+        "subsample": 0.7,
+        "n_estimators": 200,
+        "min_samples_split": 2,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 3,
+        "learning_rate": 0.05
+      },
+      "Michigan": {
+        "subsample": 0.7,
+        "n_estimators": 500,
+        "min_samples_split": 5,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 3,
+        "learning_rate": 0.05
+      },
+      "Minnesota": {
+        "subsample": 1.0,
+        "n_estimators": 200,
+        "min_samples_split": 10,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 7,
+        "learning_rate": 0.03
+      },
+      "Mississippi": {
+        "subsample": 1.0,
+        "n_estimators": 500,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 3,
+        "learning_rate": 0.1
+      },
+      "Missouri": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 5,
+        "learning_rate": 0.1
+      },
+      "Nebraska": {
+        "subsample": 0.7,
+        "n_estimators": 500,
+        "min_samples_split": 2,
+        "min_samples_leaf": 2,
+        "max_features": 0.5,
+        "max_depth": 7,
+        "learning_rate": 0.1
+      },
+      "Nevada": {
+        "subsample": 0.8,
+        "n_estimators": 500,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": 0.5,
+        "max_depth": 7,
+        "learning_rate": 0.03
+      },
+      "New Hampshire": {
+        "subsample": 0.9,
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 4,
+        "max_features": 0.5,
+        "max_depth": 3,
+        "learning_rate": 0.1
+      },
+      "New Mexico": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 5,
+        "learning_rate": 0.1
+      },
+      "New York": {
+        "subsample": 0.7,
+        "n_estimators": 200,
+        "min_samples_split": 2,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 3,
+        "learning_rate": 0.05
+      },
+      "North Carolina": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "log2",
+        "max_depth": 7,
+        "learning_rate": 0.1
+      },
+      "Ohio": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 5,
+        "learning_rate": 0.1
+      },
+      "Oklahoma": {
+        "subsample": 0.7,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 7,
+        "learning_rate": 0.1
+      },
+      "Oregon": {
+        "subsample": 0.7,
+        "n_estimators": 200,
+        "min_samples_split": 10,
+        "min_samples_leaf": 2,
+        "max_features": 0.5,
+        "max_depth": 7,
+        "learning_rate": 0.1
+      },
+      "Pennsylvania": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 5,
+        "learning_rate": 0.1
+      },
+      "Rhode Island": {
+        "subsample": 0.9,
+        "n_estimators": 300,
+        "min_samples_split": 10,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "max_depth": 3,
+        "learning_rate": 0.1
+      },
+      "South Carolina": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 5,
+        "learning_rate": 0.1
+      },
+      "South Dakota": {
+        "subsample": 0.7,
+        "n_estimators": 200,
+        "min_samples_split": 10,
+        "min_samples_leaf": 4,
+        "max_features": 0.5,
+        "max_depth": 9,
+        "learning_rate": 0.03
+      },
+      "Tennessee": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 5,
+        "learning_rate": 0.1
+      },
+      "Texas": {
+        "subsample": 0.9,
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 7,
+        "learning_rate": 0.05
+      },
+      "Utah": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "log2",
+        "max_depth": 3,
+        "learning_rate": 0.1
+      },
+      "Vermont": {
+        "subsample": 0.7,
+        "n_estimators": 200,
+        "min_samples_split": 2,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 3,
+        "learning_rate": 0.05
+      },
+      "Virginia": {
+        "subsample": 0.7,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 7,
+        "learning_rate": 0.1
+      },
+      "Washington": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_split": 5,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "max_depth": 5,
+        "learning_rate": 0.1
+      },
+      "West Virginia": {
+        "subsample": 1.0,
+        "n_estimators": 200,
+        "min_samples_split": 10,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 7,
+        "learning_rate": 0.03
+      },
+      "Wisconsin": {
+        "subsample": 0.9,
+        "n_estimators": 500,
+        "min_samples_split": 2,
+        "min_samples_leaf": 4,
+        "max_features": 0.5,
+        "max_depth": 5,
+        "learning_rate": 0.03
+      },
+      "Wyoming": {
+        "subsample": 0.9,
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 4,
+        "max_features": 0.5,
+        "max_depth": 3,
+        "learning_rate": 0.1
+      }
+    }
+  },
+  "XGBoost": {
+    "baseline": {
+      "avg_mae": 4916636.81,
+      "avg_rmse": 6003564.6,
+      "avg_mape": 2.19
+    },
+    "tuned": {
+      "avg_mae": 5457260.9,
+      "avg_rmse": 6453528.2,
+      "avg_mape": 2.54
+    },
+    "per_state_baseline": {
+      "Alabama": {
+        "MAE": 4906384.16,
+        "RMSE": 5788247.1,
+        "MAPE": 2.4
+      },
+      "Arizona": {
+        "MAE": 9201877.94,
+        "RMSE": 11327217.23,
+        "MAPE": 4.1
+      },
+      "Arkansas": {
+        "MAE": 2097614.86,
+        "RMSE": 2564317.43,
+        "MAPE": 1.93
+      },
+      "California": {
+        "MAE": 15026842.96,
+        "RMSE": 18867020.16,
+        "MAPE": 1.79
+      },
+      "Colorado": {
+        "MAE": 2530103.76,
+        "RMSE": 3182891.04,
+        "MAPE": 1.48
+      },
+      "Connecticut": {
+        "MAE": 1783262.08,
+        "RMSE": 2096096.29,
+        "MAPE": 2.0
+      },
+      "Florida": {
+        "MAE": 33707254.49,
+        "RMSE": 37769929.14,
+        "MAPE": 4.49
+      },
+      "Georgia": {
+        "MAE": 8434455.1,
+        "RMSE": 9726724.44,
+        "MAPE": 2.24
+      },
+      "Illinois": {
+        "MAE": 5829445.11,
+        "RMSE": 6442759.05,
+        "MAPE": 1.85
+      },
+      "Indiana": {
+        "MAE": 3042513.47,
+        "RMSE": 4297633.3,
+        "MAPE": 1.39
+      },
+      "Iowa": {
+        "MAE": 2516845.96,
+        "RMSE": 3173394.33,
+        "MAPE": 2.17
+      },
+      "Kansas": {
+        "MAE": 2389045.52,
+        "RMSE": 3581420.8,
+        "MAPE": 2.69
+      },
+      "Kentucky": {
+        "MAE": 3317901.36,
+        "RMSE": 4134831.9,
+        "MAPE": 1.93
+      },
+      "Louisiana": {
+        "MAE": 5920589.04,
+        "RMSE": 7372163.56,
+        "MAPE": 3.26
+      },
+      "Maine": {
+        "MAE": 1215204.43,
+        "RMSE": 1492988.5,
+        "MAPE": 2.61
+      },
+      "Maryland": {
+        "MAE": 2848118.35,
+        "RMSE": 3434030.54,
+        "MAPE": 1.79
+      },
+      "Massachusetts": {
+        "MAE": 2496799.37,
+        "RMSE": 2933526.7,
+        "MAPE": 1.38
+      },
+      "Michigan": {
+        "MAE": 6877882.85,
+        "RMSE": 9284032.93,
+        "MAPE": 2.43
+      },
+      "Minnesota": {
+        "MAE": 2847846.71,
+        "RMSE": 3676624.13,
+        "MAPE": 1.86
+      },
+      "Mississippi": {
+        "MAE": 2475828.01,
+        "RMSE": 3042352.79,
+        "MAPE": 2.03
+      },
+      "Missouri": {
+        "MAE": 3364398.78,
+        "RMSE": 3900078.57,
+        "MAPE": 1.71
+      },
+      "Nebraska": {
+        "MAE": 1830651.8,
+        "RMSE": 2136234.64,
+        "MAPE": 2.91
+      },
+      "Nevada": {
+        "MAE": 2032422.3,
+        "RMSE": 2521681.4,
+        "MAPE": 1.99
+      },
+      "New Hampshire": {
+        "MAE": 1164619.95,
+        "RMSE": 1405096.84,
+        "MAPE": 2.14
+      },
+      "New Mexico": {
+        "MAE": 2224534.06,
+        "RMSE": 2655977.95,
+        "MAPE": 3.04
+      },
+      "New York": {
+        "MAE": 7407410.2,
+        "RMSE": 10460694.2,
+        "MAPE": 1.74
+      },
+      "North Carolina": {
+        "MAE": 6416384.49,
+        "RMSE": 7380141.1,
+        "MAPE": 1.83
+      },
+      "Ohio": {
+        "MAE": 3724448.29,
+        "RMSE": 4911510.38,
+        "MAPE": 1.03
+      },
+      "Oklahoma": {
+        "MAE": 3248854.31,
+        "RMSE": 3877695.7,
+        "MAPE": 2.2
+      },
+      "Oregon": {
+        "MAE": 1838530.35,
+        "RMSE": 2241024.13,
+        "MAPE": 1.6
+      },
+      "Pennsylvania": {
+        "MAE": 5542422.64,
+        "RMSE": 7584000.76,
+        "MAPE": 1.56
+      },
+      "Rhode Island": {
+        "MAE": 703995.25,
+        "RMSE": 840265.2,
+        "MAPE": 2.64
+      },
+      "South Carolina": {
+        "MAE": 2711201.57,
+        "RMSE": 3662090.15,
+        "MAPE": 1.42
+      },
+      "South Dakota": {
+        "MAE": 495670.08,
+        "RMSE": 638067.55,
+        "MAPE": 1.78
+      },
+      "Tennessee": {
+        "MAE": 4356004.92,
+        "RMSE": 5084877.08,
+        "MAPE": 1.69
+      },
+      "Texas": {
+        "MAE": 25136654.42,
+        "RMSE": 30684303.71,
+        "MAPE": 2.79
+      },
+      "Utah": {
+        "MAE": 1149260.35,
+        "RMSE": 1425576.85,
+        "MAPE": 1.38
+      },
+      "Vermont": {
+        "MAE": 459367.19,
+        "RMSE": 630796.49,
+        "MAPE": 2.52
+      },
+      "Virginia": {
+        "MAE": 7453042.41,
+        "RMSE": 8720501.17,
+        "MAPE": 2.57
+      },
+      "Washington": {
+        "MAE": 5448241.07,
+        "RMSE": 6734520.4,
+        "MAPE": 2.92
+      },
+      "West Virginia": {
+        "MAE": 2234482.31,
+        "RMSE": 2621356.28,
+        "MAPE": 2.94
+      },
+      "Wisconsin": {
+        "MAE": 2562099.94,
+        "RMSE": 3331953.55,
+        "MAPE": 1.67
+      },
+      "Wyoming": {
+        "MAE": 444870.76,
+        "RMSE": 516632.36,
+        "MAPE": 2.11
+      }
+    },
+    "per_state_tuned": {
+      "Alabama": {
+        "MAE": 4729080.69,
+        "RMSE": 6019217.16,
+        "MAPE": 2.28
+      },
+      "Arizona": {
+        "MAE": 10064457.72,
+        "RMSE": 11629630.5,
+        "MAPE": 4.48
+      },
+      "Arkansas": {
+        "MAE": 2076539.52,
+        "RMSE": 2396259.75,
+        "MAPE": 1.89
+      },
+      "California": {
+        "MAE": 27351013.59,
+        "RMSE": 31667903.78,
+        "MAPE": 3.26
+      },
+      "Colorado": {
+        "MAE": 4796922.35,
+        "RMSE": 5993742.84,
+        "MAPE": 2.73
+      },
+      "Connecticut": {
+        "MAE": 1071219.98,
+        "RMSE": 1294626.2,
+        "MAPE": 1.21
+      },
+      "Florida": {
+        "MAE": 28601828.89,
+        "RMSE": 32250887.69,
+        "MAPE": 3.81
+      },
+      "Georgia": {
+        "MAE": 7168344.85,
+        "RMSE": 9085924.54,
+        "MAPE": 1.93
+      },
+      "Illinois": {
+        "MAE": 6395183.4,
+        "RMSE": 7709695.61,
+        "MAPE": 2.04
+      },
+      "Indiana": {
+        "MAE": 2929208.31,
+        "RMSE": 4209400.2,
+        "MAPE": 1.35
+      },
+      "Iowa": {
+        "MAE": 2496849.49,
+        "RMSE": 2848890.17,
+        "MAPE": 2.16
+      },
+      "Kansas": {
+        "MAE": 2860138.86,
+        "RMSE": 3234026.27,
+        "MAPE": 3.16
+      },
+      "Kentucky": {
+        "MAE": 3698610.08,
+        "RMSE": 4407968.9,
+        "MAPE": 2.15
+      },
+      "Louisiana": {
+        "MAE": 6206383.38,
+        "RMSE": 7371139.42,
+        "MAPE": 3.41
+      },
+      "Maine": {
+        "MAE": 1767733.41,
+        "RMSE": 2197960.81,
+        "MAPE": 3.85
+      },
+      "Maryland": {
+        "MAE": 2898386.11,
+        "RMSE": 3652565.9,
+        "MAPE": 1.83
+      },
+      "Massachusetts": {
+        "MAE": 3407252.18,
+        "RMSE": 3903670.01,
+        "MAPE": 1.85
+      },
+      "Michigan": {
+        "MAE": 4856008.85,
+        "RMSE": 6148904.03,
+        "MAPE": 1.72
+      },
+      "Minnesota": {
+        "MAE": 3053372.46,
+        "RMSE": 3846691.07,
+        "MAPE": 1.97
+      },
+      "Mississippi": {
+        "MAE": 2864664.27,
+        "RMSE": 3350615.18,
+        "MAPE": 2.34
+      },
+      "Missouri": {
+        "MAE": 3270538.28,
+        "RMSE": 3757511.75,
+        "MAPE": 1.68
+      },
+      "Nebraska": {
+        "MAE": 2071518.26,
+        "RMSE": 2521785.62,
+        "MAPE": 3.29
+      },
+      "Nevada": {
+        "MAE": 3209030.12,
+        "RMSE": 3840274.48,
+        "MAPE": 3.13
+      },
+      "New Hampshire": {
+        "MAE": 818591.0,
+        "RMSE": 1054938.27,
+        "MAPE": 1.47
+      },
+      "New Mexico": {
+        "MAE": 3997187.4,
+        "RMSE": 4377840.85,
+        "MAPE": 5.46
+      },
+      "New York": {
+        "MAE": 10821873.3,
+        "RMSE": 12632373.28,
+        "MAPE": 2.49
+      },
+      "North Carolina": {
+        "MAE": 4506639.46,
+        "RMSE": 5873958.37,
+        "MAPE": 1.3
+      },
+      "Ohio": {
+        "MAE": 5784810.79,
+        "RMSE": 6764974.11,
+        "MAPE": 1.58
+      },
+      "Oklahoma": {
+        "MAE": 4788910.28,
+        "RMSE": 5630646.62,
+        "MAPE": 3.24
+      },
+      "Oregon": {
+        "MAE": 3016047.69,
+        "RMSE": 3628725.28,
+        "MAPE": 2.6
+      },
+      "Pennsylvania": {
+        "MAE": 5922127.19,
+        "RMSE": 6666701.78,
+        "MAPE": 1.67
+      },
+      "Rhode Island": {
+        "MAE": 610474.17,
+        "RMSE": 763372.02,
+        "MAPE": 2.3
+      },
+      "South Carolina": {
+        "MAE": 9581873.72,
+        "RMSE": 10773184.99,
+        "MAPE": 4.9
+      },
+      "South Dakota": {
+        "MAE": 505685.73,
+        "RMSE": 581124.92,
+        "MAPE": 1.79
+      },
+      "Tennessee": {
+        "MAE": 6375336.0,
+        "RMSE": 7439873.14,
+        "MAPE": 2.45
+      },
+      "Texas": {
+        "MAE": 22445014.81,
+        "RMSE": 26940605.89,
+        "MAPE": 2.48
+      },
+      "Utah": {
+        "MAE": 1708850.51,
+        "RMSE": 2078758.33,
+        "MAPE": 2.03
+      },
+      "Vermont": {
+        "MAE": 625279.41,
+        "RMSE": 728639.3,
+        "MAPE": 3.45
+      },
+      "Virginia": {
+        "MAE": 5845598.44,
+        "RMSE": 6667959.26,
+        "MAPE": 2.03
+      },
+      "Washington": {
+        "MAE": 2380821.44,
+        "RMSE": 3208468.26,
+        "MAPE": 1.29
+      },
+      "West Virginia": {
+        "MAE": 3319511.1,
+        "RMSE": 3779504.76,
+        "MAPE": 4.37
+      },
+      "Wisconsin": {
+        "MAE": 3143358.31,
+        "RMSE": 3725322.6,
+        "MAPE": 2.03
+      },
+      "Wyoming": {
+        "MAE": 619943.03,
+        "RMSE": 845448.53,
+        "MAPE": 2.92
+      }
+    },
+    "best_params": {
+      "Alabama": {
+        "subsample": 0.7,
+        "reg_lambda": 5.0,
+        "reg_alpha": 0,
+        "n_estimators": 500,
+        "min_child_weight": 5,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.7
+      },
+      "Arizona": {
+        "subsample": 0.9,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0,
+        "n_estimators": 100,
+        "min_child_weight": 5,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.9
+      },
+      "Arkansas": {
+        "subsample": 1.0,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0.1,
+        "n_estimators": 500,
+        "min_child_weight": 3,
+        "max_depth": 7,
+        "learning_rate": 0.01,
+        "colsample_bytree": 0.7
+      },
+      "California": {
+        "subsample": 0.9,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0,
+        "n_estimators": 100,
+        "min_child_weight": 5,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.9
+      },
+      "Colorado": {
+        "subsample": 1.0,
+        "reg_lambda": 10.0,
+        "reg_alpha": 0.01,
+        "n_estimators": 500,
+        "min_child_weight": 3,
+        "max_depth": 7,
+        "learning_rate": 0.15,
+        "colsample_bytree": 1.0
+      },
+      "Connecticut": {
+        "subsample": 1.0,
+        "reg_lambda": 10.0,
+        "reg_alpha": 0.01,
+        "n_estimators": 100,
+        "min_child_weight": 7,
+        "max_depth": 5,
+        "learning_rate": 0.15,
+        "colsample_bytree": 1.0
+      },
+      "Florida": {
+        "subsample": 0.8,
+        "reg_lambda": 1.0,
+        "reg_alpha": 1.0,
+        "n_estimators": 200,
+        "min_child_weight": 3,
+        "max_depth": 5,
+        "learning_rate": 0.15,
+        "colsample_bytree": 0.8
+      },
+      "Georgia": {
+        "subsample": 0.9,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0.1,
+        "n_estimators": 300,
+        "min_child_weight": 3,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.8
+      },
+      "Illinois": {
+        "subsample": 0.9,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0,
+        "n_estimators": 100,
+        "min_child_weight": 5,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.9
+      },
+      "Indiana": {
+        "subsample": 1.0,
+        "reg_lambda": 5.0,
+        "reg_alpha": 0.01,
+        "n_estimators": 200,
+        "min_child_weight": 7,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.7
+      },
+      "Iowa": {
+        "subsample": 0.9,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0.1,
+        "n_estimators": 300,
+        "min_child_weight": 3,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.8
+      },
+      "Kansas": {
+        "subsample": 0.9,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0,
+        "n_estimators": 200,
+        "min_child_weight": 1,
+        "max_depth": 5,
+        "learning_rate": 0.03,
+        "colsample_bytree": 0.7
+      },
+      "Kentucky": {
+        "subsample": 0.9,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0,
+        "n_estimators": 200,
+        "min_child_weight": 1,
+        "max_depth": 7,
+        "learning_rate": 0.05,
+        "colsample_bytree": 1.0
+      },
+      "Louisiana": {
+        "subsample": 0.7,
+        "reg_lambda": 5.0,
+        "reg_alpha": 0,
+        "n_estimators": 500,
+        "min_child_weight": 5,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.7
+      },
+      "Maine": {
+        "subsample": 1.0,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0.1,
+        "n_estimators": 300,
+        "min_child_weight": 3,
+        "max_depth": 3,
+        "learning_rate": 0.15,
+        "colsample_bytree": 0.9
+      },
+      "Maryland": {
+        "subsample": 0.9,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0.1,
+        "n_estimators": 300,
+        "min_child_weight": 3,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.8
+      },
+      "Massachusetts": {
+        "subsample": 0.7,
+        "reg_lambda": 5.0,
+        "reg_alpha": 0,
+        "n_estimators": 500,
+        "min_child_weight": 5,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.7
+      },
+      "Michigan": {
+        "subsample": 1.0,
+        "reg_lambda": 5.0,
+        "reg_alpha": 0.01,
+        "n_estimators": 500,
+        "min_child_weight": 3,
+        "max_depth": 5,
+        "learning_rate": 0.15,
+        "colsample_bytree": 0.9
+      },
+      "Minnesota": {
+        "subsample": 1.0,
+        "reg_lambda": 10.0,
+        "reg_alpha": 1.0,
+        "n_estimators": 300,
+        "min_child_weight": 7,
+        "max_depth": 9,
+        "learning_rate": 0.1,
+        "colsample_bytree": 1.0
+      },
+      "Mississippi": {
+        "subsample": 0.8,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0.1,
+        "n_estimators": 300,
+        "min_child_weight": 1,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "colsample_bytree": 0.7
+      },
+      "Missouri": {
+        "subsample": 0.9,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0,
+        "n_estimators": 100,
+        "min_child_weight": 5,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.9
+      },
+      "Nebraska": {
+        "subsample": 0.9,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0,
+        "n_estimators": 100,
+        "min_child_weight": 5,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.9
+      },
+      "Nevada": {
+        "subsample": 0.9,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0.1,
+        "n_estimators": 300,
+        "min_child_weight": 3,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.8
+      },
+      "New Hampshire": {
+        "subsample": 0.7,
+        "reg_lambda": 5.0,
+        "reg_alpha": 0,
+        "n_estimators": 500,
+        "min_child_weight": 5,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.7
+      },
+      "New Mexico": {
+        "subsample": 0.7,
+        "reg_lambda": 5.0,
+        "reg_alpha": 0,
+        "n_estimators": 500,
+        "min_child_weight": 5,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.7
+      },
+      "New York": {
+        "subsample": 0.7,
+        "reg_lambda": 5.0,
+        "reg_alpha": 1.0,
+        "n_estimators": 300,
+        "min_child_weight": 3,
+        "max_depth": 7,
+        "learning_rate": 0.15,
+        "colsample_bytree": 1.0
+      },
+      "North Carolina": {
+        "subsample": 0.9,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0.1,
+        "n_estimators": 300,
+        "min_child_weight": 3,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.8
+      },
+      "Ohio": {
+        "subsample": 1.0,
+        "reg_lambda": 10.0,
+        "reg_alpha": 1.0,
+        "n_estimators": 300,
+        "min_child_weight": 7,
+        "max_depth": 9,
+        "learning_rate": 0.1,
+        "colsample_bytree": 1.0
+      },
+      "Oklahoma": {
+        "subsample": 0.7,
+        "reg_lambda": 5.0,
+        "reg_alpha": 0,
+        "n_estimators": 500,
+        "min_child_weight": 5,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.7
+      },
+      "Oregon": {
+        "subsample": 0.7,
+        "reg_lambda": 5.0,
+        "reg_alpha": 0,
+        "n_estimators": 500,
+        "min_child_weight": 5,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.7
+      },
+      "Pennsylvania": {
+        "subsample": 1.0,
+        "reg_lambda": 5.0,
+        "reg_alpha": 0.01,
+        "n_estimators": 500,
+        "min_child_weight": 3,
+        "max_depth": 5,
+        "learning_rate": 0.15,
+        "colsample_bytree": 0.9
+      },
+      "Rhode Island": {
+        "subsample": 0.7,
+        "reg_lambda": 5.0,
+        "reg_alpha": 0,
+        "n_estimators": 500,
+        "min_child_weight": 5,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.7
+      },
+      "South Carolina": {
+        "subsample": 0.9,
+        "reg_lambda": 10.0,
+        "reg_alpha": 0.01,
+        "n_estimators": 500,
+        "min_child_weight": 3,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 1.0
+      },
+      "South Dakota": {
+        "subsample": 0.7,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0.01,
+        "n_estimators": 200,
+        "min_child_weight": 3,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "colsample_bytree": 0.7
+      },
+      "Tennessee": {
+        "subsample": 0.7,
+        "reg_lambda": 5.0,
+        "reg_alpha": 1.0,
+        "n_estimators": 300,
+        "min_child_weight": 3,
+        "max_depth": 7,
+        "learning_rate": 0.15,
+        "colsample_bytree": 1.0
+      },
+      "Texas": {
+        "subsample": 1.0,
+        "reg_lambda": 10.0,
+        "reg_alpha": 1.0,
+        "n_estimators": 300,
+        "min_child_weight": 7,
+        "max_depth": 9,
+        "learning_rate": 0.1,
+        "colsample_bytree": 1.0
+      },
+      "Utah": {
+        "subsample": 0.8,
+        "reg_lambda": 5.0,
+        "reg_alpha": 1.0,
+        "n_estimators": 500,
+        "min_child_weight": 5,
+        "max_depth": 5,
+        "learning_rate": 0.03,
+        "colsample_bytree": 0.8
+      },
+      "Vermont": {
+        "subsample": 0.8,
+        "reg_lambda": 1.0,
+        "reg_alpha": 1.0,
+        "n_estimators": 200,
+        "min_child_weight": 3,
+        "max_depth": 5,
+        "learning_rate": 0.15,
+        "colsample_bytree": 0.8
+      },
+      "Virginia": {
+        "subsample": 0.9,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0.1,
+        "n_estimators": 300,
+        "min_child_weight": 3,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.8
+      },
+      "Washington": {
+        "subsample": 0.7,
+        "reg_lambda": 5.0,
+        "reg_alpha": 1.0,
+        "n_estimators": 300,
+        "min_child_weight": 3,
+        "max_depth": 7,
+        "learning_rate": 0.15,
+        "colsample_bytree": 1.0
+      },
+      "West Virginia": {
+        "subsample": 1.0,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0.1,
+        "n_estimators": 500,
+        "min_child_weight": 3,
+        "max_depth": 7,
+        "learning_rate": 0.01,
+        "colsample_bytree": 0.7
+      },
+      "Wisconsin": {
+        "subsample": 0.9,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0.1,
+        "n_estimators": 300,
+        "min_child_weight": 3,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.8
+      },
+      "Wyoming": {
+        "subsample": 0.9,
+        "reg_lambda": 1.0,
+        "reg_alpha": 0,
+        "n_estimators": 100,
+        "min_child_weight": 5,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.9
+      }
+    }
+  },
+  "Random Forest": {
+    "baseline": {
+      "avg_mae": 5293508.91,
+      "avg_rmse": 6251311.58,
+      "avg_mape": 2.61
+    },
+    "tuned": {
+      "avg_mae": 6349636.81,
+      "avg_rmse": 7358612.84,
+      "avg_mape": 3.06
+    },
+    "per_state_baseline": {
+      "Alabama": {
+        "MAE": 5020862.33,
+        "RMSE": 6305586.45,
+        "MAPE": 2.49
+      },
+      "Arizona": {
+        "MAE": 10295110.55,
+        "RMSE": 12105138.98,
+        "MAPE": 4.56
+      },
+      "Arkansas": {
+        "MAE": 2056363.64,
+        "RMSE": 2356932.32,
+        "MAPE": 1.87
+      },
+      "California": {
+        "MAE": 18119036.6,
+        "RMSE": 22322181.75,
+        "MAPE": 2.17
+      },
+      "Colorado": {
+        "MAE": 3404148.43,
+        "RMSE": 4073682.88,
+        "MAPE": 1.99
+      },
+      "Connecticut": {
+        "MAE": 1467907.21,
+        "RMSE": 1682785.86,
+        "MAPE": 1.66
+      },
+      "Florida": {
+        "MAE": 35544388.71,
+        "RMSE": 38550733.12,
+        "MAPE": 4.75
+      },
+      "Georgia": {
+        "MAE": 7890920.34,
+        "RMSE": 9898705.83,
+        "MAPE": 2.13
+      },
+      "Illinois": {
+        "MAE": 8189237.47,
+        "RMSE": 9280237.17,
+        "MAPE": 2.6
+      },
+      "Indiana": {
+        "MAE": 3409087.12,
+        "RMSE": 4152798.56,
+        "MAPE": 1.57
+      },
+      "Iowa": {
+        "MAE": 2745685.81,
+        "RMSE": 3157373.45,
+        "MAPE": 2.37
+      },
+      "Kansas": {
+        "MAE": 1951173.71,
+        "RMSE": 2411003.45,
+        "MAPE": 2.13
+      },
+      "Kentucky": {
+        "MAE": 3825075.57,
+        "RMSE": 4535866.91,
+        "MAPE": 2.24
+      },
+      "Louisiana": {
+        "MAE": 3986785.15,
+        "RMSE": 4850817.15,
+        "MAPE": 2.19
+      },
+      "Maine": {
+        "MAE": 1938332.39,
+        "RMSE": 2381004.72,
+        "MAPE": 4.18
+      },
+      "Maryland": {
+        "MAE": 3301374.42,
+        "RMSE": 4131786.68,
+        "MAPE": 2.09
+      },
+      "Massachusetts": {
+        "MAE": 4017644.28,
+        "RMSE": 4641738.02,
+        "MAPE": 2.19
+      },
+      "Michigan": {
+        "MAE": 5707093.51,
+        "RMSE": 7229724.29,
+        "MAPE": 2.03
+      },
+      "Minnesota": {
+        "MAE": 3639511.83,
+        "RMSE": 4198391.89,
+        "MAPE": 2.37
+      },
+      "Mississippi": {
+        "MAE": 2352461.22,
+        "RMSE": 3179322.92,
+        "MAPE": 1.94
+      },
+      "Missouri": {
+        "MAE": 2975595.11,
+        "RMSE": 3614240.71,
+        "MAPE": 1.52
+      },
+      "Nebraska": {
+        "MAE": 1997773.53,
+        "RMSE": 2395312.12,
+        "MAPE": 3.18
+      },
+      "Nevada": {
+        "MAE": 2340856.16,
+        "RMSE": 2718352.28,
+        "MAPE": 2.32
+      },
+      "New Hampshire": {
+        "MAE": 1652687.16,
+        "RMSE": 1941330.76,
+        "MAPE": 3.03
+      },
+      "New Mexico": {
+        "MAE": 1884098.92,
+        "RMSE": 2193608.23,
+        "MAPE": 2.58
+      },
+      "New York": {
+        "MAE": 9609736.43,
+        "RMSE": 10955957.08,
+        "MAPE": 2.24
+      },
+      "North Carolina": {
+        "MAE": 8026727.72,
+        "RMSE": 9216957.59,
+        "MAPE": 2.29
+      },
+      "Ohio": {
+        "MAE": 7327079.6,
+        "RMSE": 8465630.45,
+        "MAPE": 2.01
+      },
+      "Oklahoma": {
+        "MAE": 3408653.54,
+        "RMSE": 4103267.28,
+        "MAPE": 2.3
+      },
+      "Oregon": {
+        "MAE": 3828312.01,
+        "RMSE": 4818754.73,
+        "MAPE": 3.4
+      },
+      "Pennsylvania": {
+        "MAE": 4814776.18,
+        "RMSE": 5968164.76,
+        "MAPE": 1.36
+      },
+      "Rhode Island": {
+        "MAE": 751629.95,
+        "RMSE": 880046.08,
+        "MAPE": 2.85
+      },
+      "South Carolina": {
+        "MAE": 5104943.19,
+        "RMSE": 5760684.72,
+        "MAPE": 2.61
+      },
+      "South Dakota": {
+        "MAE": 948689.56,
+        "RMSE": 1198129.81,
+        "MAPE": 3.42
+      },
+      "Tennessee": {
+        "MAE": 5292007.51,
+        "RMSE": 6256176.76,
+        "MAPE": 2.07
+      },
+      "Texas": {
+        "MAE": 14675615.58,
+        "RMSE": 18325786.8,
+        "MAPE": 1.64
+      },
+      "Utah": {
+        "MAE": 1829648.0,
+        "RMSE": 2310203.7,
+        "MAPE": 2.25
+      },
+      "Vermont": {
+        "MAE": 656818.09,
+        "RMSE": 757643.98,
+        "MAPE": 3.61
+      },
+      "Virginia": {
+        "MAE": 6947348.57,
+        "RMSE": 8012996.69,
+        "MAPE": 2.41
+      },
+      "Washington": {
+        "MAE": 6389222.99,
+        "RMSE": 7501672.94,
+        "MAPE": 3.46
+      },
+      "West Virginia": {
+        "MAE": 3129514.09,
+        "RMSE": 3860957.17,
+        "MAPE": 4.1
+      },
+      "Wisconsin": {
+        "MAE": 4058862.59,
+        "RMSE": 4843030.89,
+        "MAPE": 2.65
+      },
+      "Wyoming": {
+        "MAE": 1108086.41,
+        "RMSE": 1261680.08,
+        "MAPE": 5.21
+      }
+    },
+    "per_state_tuned": {
+      "Alabama": {
+        "MAE": 8916321.63,
+        "RMSE": 9668079.41,
+        "MAPE": 4.33
+      },
+      "Arizona": {
+        "MAE": 12365795.24,
+        "RMSE": 14388157.44,
+        "MAPE": 5.47
+      },
+      "Arkansas": {
+        "MAE": 2350957.21,
+        "RMSE": 2685290.44,
+        "MAPE": 2.14
+      },
+      "California": {
+        "MAE": 20939726.78,
+        "RMSE": 25786019.37,
+        "MAPE": 2.49
+      },
+      "Colorado": {
+        "MAE": 3205490.9,
+        "RMSE": 3927307.06,
+        "MAPE": 1.86
+      },
+      "Connecticut": {
+        "MAE": 2990516.32,
+        "RMSE": 3496407.27,
+        "MAPE": 3.33
+      },
+      "Florida": {
+        "MAE": 36156443.11,
+        "RMSE": 38765474.64,
+        "MAPE": 4.83
+      },
+      "Georgia": {
+        "MAE": 9394766.91,
+        "RMSE": 11251625.26,
+        "MAPE": 2.51
+      },
+      "Illinois": {
+        "MAE": 9878486.84,
+        "RMSE": 11747586.4,
+        "MAPE": 3.11
+      },
+      "Indiana": {
+        "MAE": 4366291.71,
+        "RMSE": 5051750.79,
+        "MAPE": 1.99
+      },
+      "Iowa": {
+        "MAE": 3708754.26,
+        "RMSE": 4352844.1,
+        "MAPE": 3.18
+      },
+      "Kansas": {
+        "MAE": 3779793.98,
+        "RMSE": 4310021.02,
+        "MAPE": 4.14
+      },
+      "Kentucky": {
+        "MAE": 6304756.45,
+        "RMSE": 7033845.83,
+        "MAPE": 3.65
+      },
+      "Louisiana": {
+        "MAE": 7807057.64,
+        "RMSE": 9264708.7,
+        "MAPE": 4.27
+      },
+      "Maine": {
+        "MAE": 1739255.84,
+        "RMSE": 2138883.76,
+        "MAPE": 3.74
+      },
+      "Maryland": {
+        "MAE": 3435278.96,
+        "RMSE": 4387366.7,
+        "MAPE": 2.14
+      },
+      "Massachusetts": {
+        "MAE": 6768361.96,
+        "RMSE": 7917629.29,
+        "MAPE": 3.67
+      },
+      "Michigan": {
+        "MAE": 5655422.36,
+        "RMSE": 7330729.02,
+        "MAPE": 2.01
+      },
+      "Minnesota": {
+        "MAE": 3394682.27,
+        "RMSE": 3971074.52,
+        "MAPE": 2.21
+      },
+      "Mississippi": {
+        "MAE": 2213358.92,
+        "RMSE": 2952436.6,
+        "MAPE": 1.82
+      },
+      "Missouri": {
+        "MAE": 3109229.24,
+        "RMSE": 3914147.65,
+        "MAPE": 1.58
+      },
+      "Nebraska": {
+        "MAE": 2254974.9,
+        "RMSE": 2664892.18,
+        "MAPE": 3.58
+      },
+      "Nevada": {
+        "MAE": 2568001.89,
+        "RMSE": 3019585.33,
+        "MAPE": 2.53
+      },
+      "New Hampshire": {
+        "MAE": 1482315.62,
+        "RMSE": 1710992.82,
+        "MAPE": 2.72
+      },
+      "New Mexico": {
+        "MAE": 2511481.79,
+        "RMSE": 2881693.96,
+        "MAPE": 3.42
+      },
+      "New York": {
+        "MAE": 10304946.75,
+        "RMSE": 12130445.62,
+        "MAPE": 2.37
+      },
+      "North Carolina": {
+        "MAE": 8597291.25,
+        "RMSE": 9824279.28,
+        "MAPE": 2.44
+      },
+      "Ohio": {
+        "MAE": 7774552.51,
+        "RMSE": 9006185.73,
+        "MAPE": 2.13
+      },
+      "Oklahoma": {
+        "MAE": 7980585.95,
+        "RMSE": 8735418.08,
+        "MAPE": 5.41
+      },
+      "Oregon": {
+        "MAE": 3358952.88,
+        "RMSE": 4257785.39,
+        "MAPE": 2.97
+      },
+      "Pennsylvania": {
+        "MAE": 5966834.68,
+        "RMSE": 7081662.77,
+        "MAPE": 1.68
+      },
+      "Rhode Island": {
+        "MAE": 1013667.01,
+        "RMSE": 1161075.35,
+        "MAPE": 3.79
+      },
+      "South Carolina": {
+        "MAE": 6622043.97,
+        "RMSE": 7317531.82,
+        "MAPE": 3.38
+      },
+      "South Dakota": {
+        "MAE": 782795.72,
+        "RMSE": 951775.78,
+        "MAPE": 2.82
+      },
+      "Tennessee": {
+        "MAE": 9650016.18,
+        "RMSE": 10446770.8,
+        "MAPE": 3.72
+      },
+      "Texas": {
+        "MAE": 20085096.37,
+        "RMSE": 23387449.66,
+        "MAPE": 2.24
+      },
+      "Utah": {
+        "MAE": 1763693.19,
+        "RMSE": 2148299.49,
+        "MAPE": 2.16
+      },
+      "Vermont": {
+        "MAE": 465278.4,
+        "RMSE": 518751.12,
+        "MAPE": 2.54
+      },
+      "Virginia": {
+        "MAE": 8346857.84,
+        "RMSE": 9482356.16,
+        "MAPE": 2.88
+      },
+      "Washington": {
+        "MAE": 5182997.16,
+        "RMSE": 6043620.36,
+        "MAPE": 2.8
+      },
+      "West Virginia": {
+        "MAE": 3239524.22,
+        "RMSE": 3829780.75,
+        "MAPE": 4.25
+      },
+      "Wisconsin": {
+        "MAE": 3542854.3,
+        "RMSE": 4294871.14,
+        "MAPE": 2.31
+      },
+      "Wyoming": {
+        "MAE": 1058871.73,
+        "RMSE": 1183743.44,
+        "MAPE": 4.96
+      }
+    },
+    "best_params": {
+      "Alabama": {
+        "n_estimators": 100,
+        "min_samples_split": 5,
+        "min_samples_leaf": 1,
+        "max_features": "log2",
+        "max_depth": 10
+      },
+      "Arizona": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 10
+      },
+      "Arkansas": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 10
+      },
+      "California": {
+        "n_estimators": 300,
+        "min_samples_split": 5,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 15
+      },
+      "Colorado": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 10
+      },
+      "Connecticut": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "max_depth": 20
+      },
+      "Florida": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.8,
+        "max_depth": 20
+      },
+      "Georgia": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 10
+      },
+      "Illinois": {
+        "n_estimators": 500,
+        "min_samples_split": 10,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 5
+      },
+      "Indiana": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 10
+      },
+      "Iowa": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 10
+      },
+      "Kansas": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "max_depth": 20
+      },
+      "Kentucky": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "max_depth": 20
+      },
+      "Louisiana": {
+        "n_estimators": 300,
+        "min_samples_split": 5,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "max_depth": 20
+      },
+      "Maine": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.8,
+        "max_depth": 20
+      },
+      "Maryland": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "max_depth": 20
+      },
+      "Massachusetts": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "max_depth": 20
+      },
+      "Michigan": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 10
+      },
+      "Minnesota": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 4,
+        "max_features": 0.8,
+        "max_depth": 5
+      },
+      "Mississippi": {
+        "n_estimators": 100,
+        "min_samples_split": 5,
+        "min_samples_leaf": 1,
+        "max_features": 0.8,
+        "max_depth": null
+      },
+      "Missouri": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.8,
+        "max_depth": 20
+      },
+      "Nebraska": {
+        "n_estimators": 300,
+        "min_samples_split": 10,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 10
+      },
+      "Nevada": {
+        "n_estimators": 200,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.8,
+        "max_depth": null
+      },
+      "New Hampshire": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.8,
+        "max_depth": 20
+      },
+      "New Mexico": {
+        "n_estimators": 300,
+        "min_samples_split": 5,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 15
+      },
+      "New York": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "max_depth": 20
+      },
+      "North Carolina": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 2,
+        "max_features": 0.5,
+        "max_depth": null
+      },
+      "Ohio": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 10
+      },
+      "Oklahoma": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "max_depth": 20
+      },
+      "Oregon": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.8,
+        "max_depth": 20
+      },
+      "Pennsylvania": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 10
+      },
+      "Rhode Island": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "max_depth": 20
+      },
+      "South Carolina": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 10
+      },
+      "South Dakota": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 2,
+        "max_features": 0.8,
+        "max_depth": 15
+      },
+      "Tennessee": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "max_depth": 20
+      },
+      "Texas": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 4,
+        "max_features": 0.5,
+        "max_depth": 5
+      },
+      "Utah": {
+        "n_estimators": 100,
+        "min_samples_split": 5,
+        "min_samples_leaf": 1,
+        "max_features": 0.8,
+        "max_depth": null
+      },
+      "Vermont": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "max_depth": 20
+      },
+      "Virginia": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 10
+      },
+      "Washington": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 10
+      },
+      "West Virginia": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 10
+      },
+      "Wisconsin": {
+        "n_estimators": 200,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.8,
+        "max_depth": null
+      },
+      "Wyoming": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "min_samples_leaf": 2,
+        "max_features": 0.8,
+        "max_depth": 5
+      }
+    }
+  },
+  "LSTM": {
+    "baseline": {
+      "avg_mae": 10266805.63,
+      "avg_rmse": 11552120.56,
+      "avg_mape": 4.92
+    },
+    "tuned": {
+      "avg_mae": 5747510.93,
+      "avg_rmse": 6682989.81,
+      "avg_mape": 2.7
+    },
+    "per_state_baseline": {
+      "Alabama": {
+        "MAE": 7561037.63,
+        "RMSE": 8467911.63,
+        "MAPE": 3.68
+      },
+      "Arizona": {
+        "MAE": 7126166.68,
+        "RMSE": 8061892.95,
+        "MAPE": 3.19
+      },
+      "Arkansas": {
+        "MAE": 4992490.85,
+        "RMSE": 5687958.33,
+        "MAPE": 4.5
+      },
+      "California": {
+        "MAE": 32134861.4,
+        "RMSE": 37311432.09,
+        "MAPE": 3.75
+      },
+      "Colorado": {
+        "MAE": 11980800.16,
+        "RMSE": 13309707.27,
+        "MAPE": 6.84
+      },
+      "Connecticut": {
+        "MAE": 5755531.65,
+        "RMSE": 6302820.93,
+        "MAPE": 6.43
+      },
+      "Florida": {
+        "MAE": 20879684.47,
+        "RMSE": 25546983.81,
+        "MAPE": 2.78
+      },
+      "Georgia": {
+        "MAE": 13169086.55,
+        "RMSE": 14945332.15,
+        "MAPE": 3.46
+      },
+      "Illinois": {
+        "MAE": 22571027.78,
+        "RMSE": 24409091.4,
+        "MAPE": 7.1
+      },
+      "Indiana": {
+        "MAE": 9102868.44,
+        "RMSE": 10202674.87,
+        "MAPE": 4.11
+      },
+      "Iowa": {
+        "MAE": 5618520.72,
+        "RMSE": 6414500.09,
+        "MAPE": 4.82
+      },
+      "Kansas": {
+        "MAE": 5208211.57,
+        "RMSE": 6044770.69,
+        "MAPE": 5.71
+      },
+      "Kentucky": {
+        "MAE": 5966402.31,
+        "RMSE": 6765096.0,
+        "MAPE": 3.46
+      },
+      "Louisiana": {
+        "MAE": 10485622.99,
+        "RMSE": 11704279.1,
+        "MAPE": 5.76
+      },
+      "Maine": {
+        "MAE": 2978551.8,
+        "RMSE": 3263050.87,
+        "MAPE": 6.35
+      },
+      "Maryland": {
+        "MAE": 7341436.53,
+        "RMSE": 8273880.71,
+        "MAPE": 4.56
+      },
+      "Massachusetts": {
+        "MAE": 10349001.52,
+        "RMSE": 11600793.1,
+        "MAPE": 5.63
+      },
+      "Michigan": {
+        "MAE": 9045587.13,
+        "RMSE": 10188789.94,
+        "MAPE": 3.14
+      },
+      "Minnesota": {
+        "MAE": 8973714.1,
+        "RMSE": 10545092.62,
+        "MAPE": 5.69
+      },
+      "Mississippi": {
+        "MAE": 9168743.33,
+        "RMSE": 10151378.66,
+        "MAPE": 7.37
+      },
+      "Missouri": {
+        "MAE": 10493579.72,
+        "RMSE": 12108456.6,
+        "MAPE": 5.32
+      },
+      "Nebraska": {
+        "MAE": 2820827.17,
+        "RMSE": 3258439.45,
+        "MAPE": 4.49
+      },
+      "Nevada": {
+        "MAE": 7895358.75,
+        "RMSE": 8792359.78,
+        "MAPE": 7.7
+      },
+      "New Hampshire": {
+        "MAE": 3678444.79,
+        "RMSE": 4084440.11,
+        "MAPE": 6.58
+      },
+      "New Mexico": {
+        "MAE": 2988291.13,
+        "RMSE": 3339978.46,
+        "MAPE": 4.13
+      },
+      "New York": {
+        "MAE": 25982381.1,
+        "RMSE": 28381320.93,
+        "MAPE": 5.98
+      },
+      "North Carolina": {
+        "MAE": 13165421.71,
+        "RMSE": 14709903.36,
+        "MAPE": 3.69
+      },
+      "Ohio": {
+        "MAE": 18803862.14,
+        "RMSE": 21055783.65,
+        "MAPE": 5.06
+      },
+      "Oklahoma": {
+        "MAE": 6297248.67,
+        "RMSE": 7059986.29,
+        "MAPE": 4.27
+      },
+      "Oregon": {
+        "MAE": 13145574.86,
+        "RMSE": 14028636.68,
+        "MAPE": 11.39
+      },
+      "Pennsylvania": {
+        "MAE": 13256255.66,
+        "RMSE": 15200636.55,
+        "MAPE": 3.67
+      },
+      "Rhode Island": {
+        "MAE": 1280697.19,
+        "RMSE": 1418866.48,
+        "MAPE": 4.8
+      },
+      "South Carolina": {
+        "MAE": 8583895.92,
+        "RMSE": 9762481.89,
+        "MAPE": 4.38
+      },
+      "South Dakota": {
+        "MAE": 864009.66,
+        "RMSE": 1075315.42,
+        "MAPE": 3.04
+      },
+      "Tennessee": {
+        "MAE": 9447111.45,
+        "RMSE": 10462633.08,
+        "MAPE": 3.64
+      },
+      "Texas": {
+        "MAE": 56177394.19,
+        "RMSE": 62154734.33,
+        "MAPE": 6.22
+      },
+      "Utah": {
+        "MAE": 3615526.03,
+        "RMSE": 4133072.2,
+        "MAPE": 4.33
+      },
+      "Vermont": {
+        "MAE": 775541.02,
+        "RMSE": 886378.81,
+        "MAPE": 4.2
+      },
+      "Virginia": {
+        "MAE": 11932919.18,
+        "RMSE": 13265080.0,
+        "MAPE": 4.1
+      },
+      "Washington": {
+        "MAE": 10075921.12,
+        "RMSE": 11315907.41,
+        "MAPE": 5.33
+      },
+      "West Virginia": {
+        "MAE": 3610527.16,
+        "RMSE": 3999731.42,
+        "MAPE": 4.76
+      },
+      "Wisconsin": {
+        "MAE": 5581110.86,
+        "RMSE": 6297023.58,
+        "MAPE": 3.56
+      },
+      "Wyoming": {
+        "MAE": 591394.94,
+        "RMSE": 752580.21,
+        "MAPE": 2.75
+      }
+    },
+    "per_state_tuned": {
+      "Alabama": {
+        "MAE": 7384073.95,
+        "RMSE": 8192029.3,
+        "MAPE": 3.58
+      },
+      "Arizona": {
+        "MAE": 5200554.87,
+        "RMSE": 6084500.49,
+        "MAPE": 2.35
+      },
+      "Arkansas": {
+        "MAE": 3932332.24,
+        "RMSE": 4398629.2,
+        "MAPE": 3.56
+      },
+      "California": {
+        "MAE": 25559300.03,
+        "RMSE": 30189575.36,
+        "MAPE": 2.99
+      },
+      "Colorado": {
+        "MAE": 3329994.9,
+        "RMSE": 4143206.77,
+        "MAPE": 1.94
+      },
+      "Connecticut": {
+        "MAE": 1900613.47,
+        "RMSE": 2189467.87,
+        "MAPE": 2.12
+      },
+      "Florida": {
+        "MAE": 18332894.86,
+        "RMSE": 22108978.52,
+        "MAPE": 2.44
+      },
+      "Georgia": {
+        "MAE": 9983750.8,
+        "RMSE": 11713011.19,
+        "MAPE": 2.66
+      },
+      "Illinois": {
+        "MAE": 9180281.52,
+        "RMSE": 10587238.45,
+        "MAPE": 2.9
+      },
+      "Indiana": {
+        "MAE": 7023150.58,
+        "RMSE": 8232865.58,
+        "MAPE": 3.19
+      },
+      "Iowa": {
+        "MAE": 3624279.16,
+        "RMSE": 4154008.62,
+        "MAPE": 3.13
+      },
+      "Kansas": {
+        "MAE": 2413453.93,
+        "RMSE": 2809129.32,
+        "MAPE": 2.69
+      },
+      "Kentucky": {
+        "MAE": 3878055.67,
+        "RMSE": 4457123.69,
+        "MAPE": 2.27
+      },
+      "Louisiana": {
+        "MAE": 5749647.93,
+        "RMSE": 6838571.86,
+        "MAPE": 3.15
+      },
+      "Maine": {
+        "MAE": 1108188.05,
+        "RMSE": 1404233.25,
+        "MAPE": 2.4
+      },
+      "Maryland": {
+        "MAE": 3495494.51,
+        "RMSE": 4225967.42,
+        "MAPE": 2.17
+      },
+      "Massachusetts": {
+        "MAE": 4681924.64,
+        "RMSE": 5621773.05,
+        "MAPE": 2.54
+      },
+      "Michigan": {
+        "MAE": 6994112.13,
+        "RMSE": 8218049.71,
+        "MAPE": 2.42
+      },
+      "Minnesota": {
+        "MAE": 4151937.55,
+        "RMSE": 4785470.2,
+        "MAPE": 2.67
+      },
+      "Mississippi": {
+        "MAE": 3583850.04,
+        "RMSE": 4277276.62,
+        "MAPE": 2.91
+      },
+      "Missouri": {
+        "MAE": 6129952.74,
+        "RMSE": 6990805.82,
+        "MAPE": 3.13
+      },
+      "Nebraska": {
+        "MAE": 1173281.33,
+        "RMSE": 1481863.95,
+        "MAPE": 1.93
+      },
+      "Nevada": {
+        "MAE": 3336706.36,
+        "RMSE": 3896889.82,
+        "MAPE": 3.28
+      },
+      "New Hampshire": {
+        "MAE": 1673050.23,
+        "RMSE": 2102654.47,
+        "MAPE": 3.0
+      },
+      "New Mexico": {
+        "MAE": 2009664.06,
+        "RMSE": 2342644.71,
+        "MAPE": 2.78
+      },
+      "New York": {
+        "MAE": 10235707.89,
+        "RMSE": 11736435.66,
+        "MAPE": 2.38
+      },
+      "North Carolina": {
+        "MAE": 7771377.97,
+        "RMSE": 8968537.98,
+        "MAPE": 2.19
+      },
+      "Ohio": {
+        "MAE": 8895413.97,
+        "RMSE": 10189588.41,
+        "MAPE": 2.41
+      },
+      "Oklahoma": {
+        "MAE": 4765273.41,
+        "RMSE": 5474363.14,
+        "MAPE": 3.23
+      },
+      "Oregon": {
+        "MAE": 2912160.77,
+        "RMSE": 3217347.83,
+        "MAPE": 2.56
+      },
+      "Pennsylvania": {
+        "MAE": 7919669.41,
+        "RMSE": 9180157.91,
+        "MAPE": 2.2
+      },
+      "Rhode Island": {
+        "MAE": 725471.31,
+        "RMSE": 847480.72,
+        "MAPE": 2.73
+      },
+      "South Carolina": {
+        "MAE": 4897519.06,
+        "RMSE": 5497049.84,
+        "MAPE": 2.53
+      },
+      "South Dakota": {
+        "MAE": 947348.54,
+        "RMSE": 1122183.26,
+        "MAPE": 3.39
+      },
+      "Tennessee": {
+        "MAE": 7147624.64,
+        "RMSE": 8115674.45,
+        "MAPE": 2.75
+      },
+      "Texas": {
+        "MAE": 23338445.03,
+        "RMSE": 26449614.67,
+        "MAPE": 2.61
+      },
+      "Utah": {
+        "MAE": 2128083.27,
+        "RMSE": 2507549.81,
+        "MAPE": 2.61
+      },
+      "Vermont": {
+        "MAE": 513209.51,
+        "RMSE": 648544.71,
+        "MAPE": 2.82
+      },
+      "Virginia": {
+        "MAE": 7448172.75,
+        "RMSE": 8506868.25,
+        "MAPE": 2.56
+      },
+      "Washington": {
+        "MAE": 4738161.57,
+        "RMSE": 5554653.94,
+        "MAPE": 2.52
+      },
+      "West Virginia": {
+        "MAE": 2731450.92,
+        "RMSE": 3082836.44,
+        "MAPE": 3.6
+      },
+      "Wisconsin": {
+        "MAE": 3693249.7,
+        "RMSE": 4201640.59,
+        "MAPE": 2.37
+      },
+      "Wyoming": {
+        "MAE": 504084.87,
+        "RMSE": 622069.0,
+        "MAPE": 2.35
+      }
+    },
+    "best_params": {
+      "Alabama": {
+        "u1": 64,
+        "u2": 16,
+        "lr": 0.005,
+        "drop": 0.2
+      },
+      "Arizona": {
+        "u1": 128,
+        "u2": 64,
+        "lr": 0.0005,
+        "drop": 0.2
+      },
+      "Arkansas": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "California": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Colorado": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Connecticut": {
+        "u1": 64,
+        "u2": 16,
+        "lr": 0.005,
+        "drop": 0.2
+      },
+      "Florida": {
+        "u1": 128,
+        "u2": 64,
+        "lr": 0.0005,
+        "drop": 0.2
+      },
+      "Georgia": {
+        "u1": 32,
+        "u2": 16,
+        "lr": 0.001,
+        "drop": 0.1
+      },
+      "Illinois": {
+        "u1": 64,
+        "u2": 16,
+        "lr": 0.005,
+        "drop": 0.2
+      },
+      "Indiana": {
+        "u1": 128,
+        "u2": 64,
+        "lr": 0.001,
+        "drop": 0.3
+      },
+      "Iowa": {
+        "u1": 64,
+        "u2": 16,
+        "lr": 0.005,
+        "drop": 0.2
+      },
+      "Kansas": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.001,
+        "drop": 0.2
+      },
+      "Kentucky": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Louisiana": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Maine": {
+        "u1": 64,
+        "u2": 16,
+        "lr": 0.005,
+        "drop": 0.2
+      },
+      "Maryland": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Massachusetts": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Michigan": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Minnesota": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Mississippi": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Missouri": {
+        "u1": 64,
+        "u2": 16,
+        "lr": 0.005,
+        "drop": 0.2
+      },
+      "Nebraska": {
+        "u1": 32,
+        "u2": 16,
+        "lr": 0.001,
+        "drop": 0.1
+      },
+      "Nevada": {
+        "u1": 64,
+        "u2": 16,
+        "lr": 0.005,
+        "drop": 0.2
+      },
+      "New Hampshire": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "New Mexico": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "New York": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "North Carolina": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Ohio": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Oklahoma": {
+        "u1": 64,
+        "u2": 16,
+        "lr": 0.005,
+        "drop": 0.2
+      },
+      "Oregon": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Pennsylvania": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Rhode Island": {
+        "u1": 64,
+        "u2": 16,
+        "lr": 0.005,
+        "drop": 0.2
+      },
+      "South Carolina": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "South Dakota": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Tennessee": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Texas": {
+        "u1": 64,
+        "u2": 16,
+        "lr": 0.005,
+        "drop": 0.2
+      },
+      "Utah": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Vermont": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Virginia": {
+        "u1": 64,
+        "u2": 32,
+        "lr": 0.01,
+        "drop": 0.1
+      },
+      "Washington": {
+        "u1": 64,
+        "u2": 16,
+        "lr": 0.005,
+        "drop": 0.2
+      },
+      "West Virginia": {
+        "u1": 128,
+        "u2": 64,
+        "lr": 0.0005,
+        "drop": 0.2
+      },
+      "Wisconsin": {
+        "u1": 64,
+        "u2": 16,
+        "lr": 0.005,
+        "drop": 0.2
+      },
+      "Wyoming": {
+        "u1": 64,
+        "u2": 16,
+        "lr": 0.005,
+        "drop": 0.2
+      }
+    }
+  },
+  "Prophet": {
+    "baseline": {
+      "avg_mae": 11047268.59,
+      "avg_rmse": 13343775.18,
+      "avg_mape": 5.37
+    },
+    "tuned": {
+      "avg_mae": 7825040.38,
+      "avg_rmse": 9585665.17,
+      "avg_mape": 3.87
+    },
+    "per_state_baseline": {
+      "Alabama": {
+        "MAE": 8479487.06,
+        "RMSE": 10805379.07,
+        "MAPE": 4.23
+      },
+      "Arizona": {
+        "MAE": 8128866.49,
+        "RMSE": 10284888.51,
+        "MAPE": 3.78
+      },
+      "Arkansas": {
+        "MAE": 4526330.14,
+        "RMSE": 5732313.13,
+        "MAPE": 4.24
+      },
+      "California": {
+        "MAE": 45980141.21,
+        "RMSE": 57288997.76,
+        "MAPE": 5.61
+      },
+      "Colorado": {
+        "MAE": 8981635.22,
+        "RMSE": 10944622.86,
+        "MAPE": 5.28
+      },
+      "Connecticut": {
+        "MAE": 5272206.88,
+        "RMSE": 5954786.79,
+        "MAPE": 5.99
+      },
+      "Florida": {
+        "MAE": 21164012.33,
+        "RMSE": 26407884.1,
+        "MAPE": 2.9
+      },
+      "Georgia": {
+        "MAE": 19874113.64,
+        "RMSE": 23819116.63,
+        "MAPE": 5.37
+      },
+      "Illinois": {
+        "MAE": 16645016.93,
+        "RMSE": 20042319.73,
+        "MAPE": 5.43
+      },
+      "Indiana": {
+        "MAE": 8131227.01,
+        "RMSE": 10582258.34,
+        "MAPE": 3.8
+      },
+      "Iowa": {
+        "MAE": 5736377.39,
+        "RMSE": 6973140.74,
+        "MAPE": 5.12
+      },
+      "Kansas": {
+        "MAE": 3624691.39,
+        "RMSE": 4443833.87,
+        "MAPE": 4.11
+      },
+      "Kentucky": {
+        "MAE": 6336512.85,
+        "RMSE": 7985526.97,
+        "MAPE": 3.78
+      },
+      "Louisiana": {
+        "MAE": 10539066.75,
+        "RMSE": 12509545.95,
+        "MAPE": 6.0
+      },
+      "Maine": {
+        "MAE": 4263881.2,
+        "RMSE": 5094569.76,
+        "MAPE": 9.36
+      },
+      "Maryland": {
+        "MAE": 8094514.22,
+        "RMSE": 9992070.37,
+        "MAPE": 5.16
+      },
+      "Massachusetts": {
+        "MAE": 10101971.13,
+        "RMSE": 11905994.19,
+        "MAPE": 5.63
+      },
+      "Michigan": {
+        "MAE": 12200489.77,
+        "RMSE": 15762230.0,
+        "MAPE": 4.34
+      },
+      "Minnesota": {
+        "MAE": 6722955.81,
+        "RMSE": 8556223.35,
+        "MAPE": 4.44
+      },
+      "Mississippi": {
+        "MAE": 12922348.22,
+        "RMSE": 13933227.94,
+        "MAPE": 10.64
+      },
+      "Missouri": {
+        "MAE": 9888874.61,
+        "RMSE": 11938009.61,
+        "MAPE": 5.21
+      },
+      "Nebraska": {
+        "MAE": 4878036.89,
+        "RMSE": 5676973.02,
+        "MAPE": 8.05
+      },
+      "Nevada": {
+        "MAE": 4964060.06,
+        "RMSE": 6368940.52,
+        "MAPE": 5.07
+      },
+      "New Hampshire": {
+        "MAE": 3618663.55,
+        "RMSE": 4374711.79,
+        "MAPE": 6.68
+      },
+      "New Mexico": {
+        "MAE": 3560217.91,
+        "RMSE": 4670788.64,
+        "MAPE": 5.11
+      },
+      "New York": {
+        "MAE": 22874148.78,
+        "RMSE": 27783314.56,
+        "MAPE": 5.4
+      },
+      "North Carolina": {
+        "MAE": 16565771.12,
+        "RMSE": 20484573.78,
+        "MAPE": 4.77
+      },
+      "Ohio": {
+        "MAE": 20896318.36,
+        "RMSE": 24766324.41,
+        "MAPE": 5.79
+      },
+      "Oklahoma": {
+        "MAE": 5690637.0,
+        "RMSE": 6923598.5,
+        "MAPE": 3.97
+      },
+      "Oregon": {
+        "MAE": 5416775.39,
+        "RMSE": 6865097.91,
+        "MAPE": 4.86
+      },
+      "Pennsylvania": {
+        "MAE": 18674228.4,
+        "RMSE": 22348586.67,
+        "MAPE": 5.3
+      },
+      "Rhode Island": {
+        "MAE": 1060703.03,
+        "RMSE": 1329491.24,
+        "MAPE": 4.06
+      },
+      "South Carolina": {
+        "MAE": 10824698.59,
+        "RMSE": 13068545.99,
+        "MAPE": 5.67
+      },
+      "South Dakota": {
+        "MAE": 2247150.56,
+        "RMSE": 2779548.16,
+        "MAPE": 8.12
+      },
+      "Tennessee": {
+        "MAE": 14048172.21,
+        "RMSE": 16827476.68,
+        "MAPE": 5.54
+      },
+      "Texas": {
+        "MAE": 64577530.82,
+        "RMSE": 72409827.51,
+        "MAPE": 7.34
+      },
+      "Utah": {
+        "MAE": 3989698.42,
+        "RMSE": 5333368.4,
+        "MAPE": 4.99
+      },
+      "Vermont": {
+        "MAE": 712108.93,
+        "RMSE": 885736.25,
+        "MAPE": 3.94
+      },
+      "Virginia": {
+        "MAE": 13111181.25,
+        "RMSE": 15856468.88,
+        "MAPE": 4.63
+      },
+      "Washington": {
+        "MAE": 7283858.33,
+        "RMSE": 9017490.44,
+        "MAPE": 3.97
+      },
+      "West Virginia": {
+        "MAE": 2617175.11,
+        "RMSE": 3208599.64,
+        "MAPE": 3.54
+      },
+      "Wisconsin": {
+        "MAE": 8084505.95,
+        "RMSE": 9856070.41,
+        "MAPE": 5.3
+      },
+      "Wyoming": {
+        "MAE": 1722188.51,
+        "RMSE": 1989859.51,
+        "MAPE": 8.2
+      }
+    },
+    "per_state_tuned": {
+      "Alabama": {
+        "MAE": 7260709.46,
+        "RMSE": 8812758.18,
+        "MAPE": 3.6
+      },
+      "Arizona": {
+        "MAE": 8111465.41,
+        "RMSE": 10218707.51,
+        "MAPE": 3.73
+      },
+      "Arkansas": {
+        "MAE": 4009531.98,
+        "RMSE": 4890259.74,
+        "MAPE": 3.68
+      },
+      "California": {
+        "MAE": 34998951.27,
+        "RMSE": 42195335.42,
+        "MAPE": 4.19
+      },
+      "Colorado": {
+        "MAE": 6683874.75,
+        "RMSE": 8069844.75,
+        "MAPE": 3.87
+      },
+      "Connecticut": {
+        "MAE": 3169333.27,
+        "RMSE": 3945393.47,
+        "MAPE": 3.55
+      },
+      "Florida": {
+        "MAE": 18962262.91,
+        "RMSE": 24293717.89,
+        "MAPE": 2.58
+      },
+      "Georgia": {
+        "MAE": 11835902.62,
+        "RMSE": 14268425.99,
+        "MAPE": 3.17
+      },
+      "Illinois": {
+        "MAE": 14005087.12,
+        "RMSE": 17174966.03,
+        "MAPE": 4.49
+      },
+      "Indiana": {
+        "MAE": 7995747.28,
+        "RMSE": 9588807.75,
+        "MAPE": 3.67
+      },
+      "Iowa": {
+        "MAE": 4486425.07,
+        "RMSE": 5428569.9,
+        "MAPE": 3.95
+      },
+      "Kansas": {
+        "MAE": 3455977.21,
+        "RMSE": 4468557.4,
+        "MAPE": 3.86
+      },
+      "Kentucky": {
+        "MAE": 5827259.33,
+        "RMSE": 7347551.14,
+        "MAPE": 3.45
+      },
+      "Louisiana": {
+        "MAE": 6113959.06,
+        "RMSE": 7341291.75,
+        "MAPE": 3.44
+      },
+      "Maine": {
+        "MAE": 2010857.17,
+        "RMSE": 2388713.21,
+        "MAPE": 4.4
+      },
+      "Maryland": {
+        "MAE": 5870460.63,
+        "RMSE": 6732402.15,
+        "MAPE": 3.66
+      },
+      "Massachusetts": {
+        "MAE": 7055121.55,
+        "RMSE": 8447656.14,
+        "MAPE": 3.86
+      },
+      "Michigan": {
+        "MAE": 11302576.99,
+        "RMSE": 13608033.49,
+        "MAPE": 3.98
+      },
+      "Minnesota": {
+        "MAE": 6015784.64,
+        "RMSE": 7486931.11,
+        "MAPE": 3.92
+      },
+      "Mississippi": {
+        "MAE": 4265503.18,
+        "RMSE": 5904703.83,
+        "MAPE": 3.56
+      },
+      "Missouri": {
+        "MAE": 6277390.44,
+        "RMSE": 8295084.2,
+        "MAPE": 3.28
+      },
+      "Nebraska": {
+        "MAE": 2557910.26,
+        "RMSE": 3263663.34,
+        "MAPE": 4.21
+      },
+      "Nevada": {
+        "MAE": 4332171.87,
+        "RMSE": 5131655.6,
+        "MAPE": 4.32
+      },
+      "New Hampshire": {
+        "MAE": 2615475.07,
+        "RMSE": 3014507.93,
+        "MAPE": 4.74
+      },
+      "New Mexico": {
+        "MAE": 2902733.06,
+        "RMSE": 3435992.44,
+        "MAPE": 4.08
+      },
+      "New York": {
+        "MAE": 17851080.44,
+        "RMSE": 21009857.65,
+        "MAPE": 4.16
+      },
+      "North Carolina": {
+        "MAE": 12432147.27,
+        "RMSE": 14721931.75,
+        "MAPE": 3.52
+      },
+      "Ohio": {
+        "MAE": 13570832.52,
+        "RMSE": 16726409.5,
+        "MAPE": 3.72
+      },
+      "Oklahoma": {
+        "MAE": 4893235.44,
+        "RMSE": 6143922.34,
+        "MAPE": 3.39
+      },
+      "Oregon": {
+        "MAE": 5881420.67,
+        "RMSE": 7207390.87,
+        "MAPE": 5.22
+      },
+      "Pennsylvania": {
+        "MAE": 11752901.47,
+        "RMSE": 13917014.93,
+        "MAPE": 3.3
+      },
+      "Rhode Island": {
+        "MAE": 1158369.52,
+        "RMSE": 1452417.06,
+        "MAPE": 4.38
+      },
+      "South Carolina": {
+        "MAE": 6421084.53,
+        "RMSE": 8053571.21,
+        "MAPE": 3.35
+      },
+      "South Dakota": {
+        "MAE": 1377503.02,
+        "RMSE": 1604097.29,
+        "MAPE": 4.92
+      },
+      "Tennessee": {
+        "MAE": 8311980.85,
+        "RMSE": 10365582.98,
+        "MAPE": 3.25
+      },
+      "Texas": {
+        "MAE": 27720786.83,
+        "RMSE": 34511203.17,
+        "MAPE": 3.16
+      },
+      "Utah": {
+        "MAE": 3939690.43,
+        "RMSE": 4776212.79,
+        "MAPE": 4.79
+      },
+      "Vermont": {
+        "MAE": 743687.75,
+        "RMSE": 907500.51,
+        "MAPE": 4.1
+      },
+      "Virginia": {
+        "MAE": 9749523.54,
+        "RMSE": 12088717.85,
+        "MAPE": 3.4
+      },
+      "Washington": {
+        "MAE": 8508027.18,
+        "RMSE": 10502352.7,
+        "MAPE": 4.59
+      },
+      "West Virginia": {
+        "MAE": 2833590.01,
+        "RMSE": 3539000.48,
+        "MAPE": 3.81
+      },
+      "Wisconsin": {
+        "MAE": 6345154.86,
+        "RMSE": 7808536.11,
+        "MAPE": 4.11
+      },
+      "Wyoming": {
+        "MAE": 863248.58,
+        "RMSE": 1094352.55,
+        "MAPE": 4.12
+      }
+    },
+    "best_params": {
+      "Alabama": {
+        "cps": 0.1,
+        "sps": 1.0,
+        "mode": "multiplicative"
+      },
+      "Arizona": {
+        "cps": 0.5,
+        "sps": 0.1,
+        "mode": "multiplicative"
+      },
+      "Arkansas": {
+        "cps": 0.1,
+        "sps": 10.0,
+        "mode": "additive"
+      },
+      "California": {
+        "cps": 0.1,
+        "sps": 0.1,
+        "mode": "additive"
+      },
+      "Colorado": {
+        "cps": 0.1,
+        "sps": 1.0,
+        "mode": "additive"
+      },
+      "Connecticut": {
+        "cps": 0.1,
+        "sps": 0.01,
+        "mode": "multiplicative"
+      },
+      "Florida": {
+        "cps": 0.001,
+        "sps": 0.01,
+        "mode": "additive"
+      },
+      "Georgia": {
+        "cps": 0.1,
+        "sps": 1.0,
+        "mode": "additive"
+      },
+      "Illinois": {
+        "cps": 0.1,
+        "sps": 1.0,
+        "mode": "multiplicative"
+      },
+      "Indiana": {
+        "cps": 0.1,
+        "sps": 1.0,
+        "mode": "additive"
+      },
+      "Iowa": {
+        "cps": 0.1,
+        "sps": 1.0,
+        "mode": "additive"
+      },
+      "Kansas": {
+        "cps": 0.1,
+        "sps": 0.1,
+        "mode": "multiplicative"
+      },
+      "Kentucky": {
+        "cps": 0.1,
+        "sps": 10.0,
+        "mode": "multiplicative"
+      },
+      "Louisiana": {
+        "cps": 0.1,
+        "sps": 0.1,
+        "mode": "additive"
+      },
+      "Maine": {
+        "cps": 0.1,
+        "sps": 0.01,
+        "mode": "multiplicative"
+      },
+      "Maryland": {
+        "cps": 0.1,
+        "sps": 0.01,
+        "mode": "multiplicative"
+      },
+      "Massachusetts": {
+        "cps": 0.1,
+        "sps": 0.01,
+        "mode": "multiplicative"
+      },
+      "Michigan": {
+        "cps": 0.1,
+        "sps": 10.0,
+        "mode": "additive"
+      },
+      "Minnesota": {
+        "cps": 0.1,
+        "sps": 0.1,
+        "mode": "additive"
+      },
+      "Mississippi": {
+        "cps": 0.5,
+        "sps": 0.1,
+        "mode": "multiplicative"
+      },
+      "Missouri": {
+        "cps": 0.1,
+        "sps": 1.0,
+        "mode": "additive"
+      },
+      "Nebraska": {
+        "cps": 0.5,
+        "sps": 1.0,
+        "mode": "multiplicative"
+      },
+      "Nevada": {
+        "cps": 0.1,
+        "sps": 1.0,
+        "mode": "additive"
+      },
+      "New Hampshire": {
+        "cps": 0.1,
+        "sps": 0.01,
+        "mode": "multiplicative"
+      },
+      "New Mexico": {
+        "cps": 0.1,
+        "sps": 10.0,
+        "mode": "additive"
+      },
+      "New York": {
+        "cps": 0.1,
+        "sps": 10.0,
+        "mode": "additive"
+      },
+      "North Carolina": {
+        "cps": 0.1,
+        "sps": 0.01,
+        "mode": "multiplicative"
+      },
+      "Ohio": {
+        "cps": 0.1,
+        "sps": 0.1,
+        "mode": "additive"
+      },
+      "Oklahoma": {
+        "cps": 0.5,
+        "sps": 0.1,
+        "mode": "multiplicative"
+      },
+      "Oregon": {
+        "cps": 0.1,
+        "sps": 0.1,
+        "mode": "multiplicative"
+      },
+      "Pennsylvania": {
+        "cps": 0.1,
+        "sps": 0.01,
+        "mode": "multiplicative"
+      },
+      "Rhode Island": {
+        "cps": 0.1,
+        "sps": 1.0,
+        "mode": "additive"
+      },
+      "South Carolina": {
+        "cps": 0.1,
+        "sps": 0.1,
+        "mode": "additive"
+      },
+      "South Dakota": {
+        "cps": 0.1,
+        "sps": 0.01,
+        "mode": "multiplicative"
+      },
+      "Tennessee": {
+        "cps": 0.1,
+        "sps": 1.0,
+        "mode": "additive"
+      },
+      "Texas": {
+        "cps": 0.1,
+        "sps": 0.1,
+        "mode": "additive"
+      },
+      "Utah": {
+        "cps": 0.1,
+        "sps": 10.0,
+        "mode": "additive"
+      },
+      "Vermont": {
+        "cps": 0.1,
+        "sps": 0.1,
+        "mode": "additive"
+      },
+      "Virginia": {
+        "cps": 0.1,
+        "sps": 0.1,
+        "mode": "additive"
+      },
+      "Washington": {
+        "cps": 0.1,
+        "sps": 1.0,
+        "mode": "multiplicative"
+      },
+      "West Virginia": {
+        "cps": 0.5,
+        "sps": 0.1,
+        "mode": "multiplicative"
+      },
+      "Wisconsin": {
+        "cps": 0.1,
+        "sps": 0.1,
+        "mode": "additive"
+      },
+      "Wyoming": {
+        "cps": 0.1,
+        "sps": 0.1,
+        "mode": "additive"
+      }
+    }
+  },
+  "SARIMA": {
+    "baseline": {
+      "avg_mae": 14159835.84,
+      "avg_rmse": 18045648.34,
+      "avg_mape": 6.98
+    },
+    "tuned": {
+      "avg_mae": 8547654.94,
+      "avg_rmse": 10616211.11,
+      "avg_mape": 4.32
+    },
+    "per_state_baseline": {
+      "Alabama": {
+        "MAE": 13772319.1,
+        "RMSE": 17443526.36,
+        "MAPE": 6.84
+      },
+      "Arizona": {
+        "MAE": 10276493.58,
+        "RMSE": 13649505.25,
+        "MAPE": 4.79
+      },
+      "Arkansas": {
+        "MAE": 7324453.27,
+        "RMSE": 9052547.67,
+        "MAPE": 6.8
+      },
+      "California": {
+        "MAE": 55476598.32,
+        "RMSE": 73763001.67,
+        "MAPE": 6.75
+      },
+      "Colorado": {
+        "MAE": 11327215.25,
+        "RMSE": 14578663.25,
+        "MAPE": 6.61
+      },
+      "Connecticut": {
+        "MAE": 5322739.07,
+        "RMSE": 6438578.03,
+        "MAPE": 6.03
+      },
+      "Florida": {
+        "MAE": 32003980.39,
+        "RMSE": 42843573.89,
+        "MAPE": 4.38
+      },
+      "Georgia": {
+        "MAE": 26480621.31,
+        "RMSE": 33502548.9,
+        "MAPE": 7.16
+      },
+      "Illinois": {
+        "MAE": 18145408.87,
+        "RMSE": 22817408.66,
+        "MAPE": 5.89
+      },
+      "Indiana": {
+        "MAE": 13189634.11,
+        "RMSE": 16964564.16,
+        "MAPE": 6.13
+      },
+      "Iowa": {
+        "MAE": 7020048.69,
+        "RMSE": 9105184.25,
+        "MAPE": 6.25
+      },
+      "Kansas": {
+        "MAE": 4590549.97,
+        "RMSE": 5764547.02,
+        "MAPE": 5.21
+      },
+      "Kentucky": {
+        "MAE": 11229242.15,
+        "RMSE": 13948698.33,
+        "MAPE": 6.67
+      },
+      "Louisiana": {
+        "MAE": 10686163.34,
+        "RMSE": 13723158.47,
+        "MAPE": 6.09
+      },
+      "Maine": {
+        "MAE": 5402143.35,
+        "RMSE": 7096799.37,
+        "MAPE": 11.81
+      },
+      "Maryland": {
+        "MAE": 10991807.39,
+        "RMSE": 13760349.63,
+        "MAPE": 6.98
+      },
+      "Massachusetts": {
+        "MAE": 12062595.62,
+        "RMSE": 15218824.8,
+        "MAPE": 6.68
+      },
+      "Michigan": {
+        "MAE": 19471532.22,
+        "RMSE": 25225275.46,
+        "MAPE": 6.9
+      },
+      "Minnesota": {
+        "MAE": 9119595.64,
+        "RMSE": 12185694.66,
+        "MAPE": 6.0
+      },
+      "Mississippi": {
+        "MAE": 11089347.54,
+        "RMSE": 12992083.33,
+        "MAPE": 9.14
+      },
+      "Missouri": {
+        "MAE": 13925005.39,
+        "RMSE": 16857646.1,
+        "MAPE": 7.3
+      },
+      "Nebraska": {
+        "MAE": 3499830.04,
+        "RMSE": 4585256.0,
+        "MAPE": 5.78
+      },
+      "Nevada": {
+        "MAE": 7692444.41,
+        "RMSE": 9623430.57,
+        "MAPE": 7.79
+      },
+      "New Hampshire": {
+        "MAE": 4077600.82,
+        "RMSE": 5312645.03,
+        "MAPE": 7.49
+      },
+      "New Mexico": {
+        "MAE": 4937727.22,
+        "RMSE": 6249155.42,
+        "MAPE": 7.01
+      },
+      "New York": {
+        "MAE": 30796609.06,
+        "RMSE": 38526710.98,
+        "MAPE": 7.22
+      },
+      "North Carolina": {
+        "MAE": 25935896.47,
+        "RMSE": 33431733.3,
+        "MAPE": 7.44
+      },
+      "Ohio": {
+        "MAE": 25573206.8,
+        "RMSE": 32519262.73,
+        "MAPE": 7.09
+      },
+      "Oklahoma": {
+        "MAE": 8084995.53,
+        "RMSE": 10325300.01,
+        "MAPE": 5.61
+      },
+      "Oregon": {
+        "MAE": 8198825.9,
+        "RMSE": 10964173.26,
+        "MAPE": 7.31
+      },
+      "Pennsylvania": {
+        "MAE": 25017161.2,
+        "RMSE": 30758586.86,
+        "MAPE": 7.08
+      },
+      "Rhode Island": {
+        "MAE": 1887519.57,
+        "RMSE": 2337845.66,
+        "MAPE": 7.17
+      },
+      "South Carolina": {
+        "MAE": 15249399.66,
+        "RMSE": 18905352.6,
+        "MAPE": 7.95
+      },
+      "South Dakota": {
+        "MAE": 2875490.69,
+        "RMSE": 3782282.15,
+        "MAPE": 10.32
+      },
+      "Tennessee": {
+        "MAE": 20056105.73,
+        "RMSE": 24422768.18,
+        "MAPE": 7.88
+      },
+      "Texas": {
+        "MAE": 61257403.85,
+        "RMSE": 76475023.74,
+        "MAPE": 6.96
+      },
+      "Utah": {
+        "MAE": 5931366.32,
+        "RMSE": 7808825.23,
+        "MAPE": 7.35
+      },
+      "Vermont": {
+        "MAE": 1338820.7,
+        "RMSE": 1707544.25,
+        "MAPE": 7.32
+      },
+      "Virginia": {
+        "MAE": 18682460.85,
+        "RMSE": 23816812.51,
+        "MAPE": 6.59
+      },
+      "Washington": {
+        "MAE": 12405517.24,
+        "RMSE": 16474705.32,
+        "MAPE": 6.72
+      },
+      "West Virginia": {
+        "MAE": 3718571.77,
+        "RMSE": 4643528.58,
+        "MAPE": 5.03
+      },
+      "Wisconsin": {
+        "MAE": 10753615.29,
+        "RMSE": 13779026.06,
+        "MAPE": 7.01
+      },
+      "Wyoming": {
+        "MAE": 1994877.28,
+        "RMSE": 2580730.95,
+        "MAPE": 9.43
+      }
+    },
+    "per_state_tuned": {
+      "Alabama": {
+        "MAE": 8525801.34,
+        "RMSE": 10686874.52,
+        "MAPE": 4.24
+      },
+      "Arizona": {
+        "MAE": 8301373.4,
+        "RMSE": 10389732.35,
+        "MAPE": 3.78
+      },
+      "Arkansas": {
+        "MAE": 4905810.81,
+        "RMSE": 5916752.08,
+        "MAPE": 4.56
+      },
+      "California": {
+        "MAE": 32829921.13,
+        "RMSE": 42361664.33,
+        "MAPE": 3.99
+      },
+      "Colorado": {
+        "MAE": 6601412.0,
+        "RMSE": 8435335.2,
+        "MAPE": 3.87
+      },
+      "Connecticut": {
+        "MAE": 3122820.94,
+        "RMSE": 3572117.95,
+        "MAPE": 3.53
+      },
+      "Florida": {
+        "MAE": 19893406.99,
+        "RMSE": 26205056.01,
+        "MAPE": 2.72
+      },
+      "Georgia": {
+        "MAE": 16889525.5,
+        "RMSE": 20863620.1,
+        "MAPE": 4.56
+      },
+      "Illinois": {
+        "MAE": 11264169.63,
+        "RMSE": 13542127.37,
+        "MAPE": 3.63
+      },
+      "Indiana": {
+        "MAE": 8737279.52,
+        "RMSE": 10660661.17,
+        "MAPE": 4.05
+      },
+      "Iowa": {
+        "MAE": 4188238.46,
+        "RMSE": 5131505.51,
+        "MAPE": 3.71
+      },
+      "Kansas": {
+        "MAE": 3153606.81,
+        "RMSE": 3803783.41,
+        "MAPE": 3.55
+      },
+      "Kentucky": {
+        "MAE": 7230802.62,
+        "RMSE": 8862049.24,
+        "MAPE": 4.3
+      },
+      "Louisiana": {
+        "MAE": 5763503.92,
+        "RMSE": 7420174.19,
+        "MAPE": 3.27
+      },
+      "Maine": {
+        "MAE": 4217860.99,
+        "RMSE": 5228737.22,
+        "MAPE": 9.23
+      },
+      "Maryland": {
+        "MAE": 6056026.43,
+        "RMSE": 7210659.63,
+        "MAPE": 3.83
+      },
+      "Massachusetts": {
+        "MAE": 6503878.97,
+        "RMSE": 7805730.69,
+        "MAPE": 3.59
+      },
+      "Michigan": {
+        "MAE": 11787686.67,
+        "RMSE": 14298273.33,
+        "MAPE": 4.17
+      },
+      "Minnesota": {
+        "MAE": 5072382.96,
+        "RMSE": 6256177.73,
+        "MAPE": 3.28
+      },
+      "Mississippi": {
+        "MAE": 9653025.35,
+        "RMSE": 11185334.76,
+        "MAPE": 7.97
+      },
+      "Missouri": {
+        "MAE": 8914131.74,
+        "RMSE": 10748484.75,
+        "MAPE": 4.68
+      },
+      "Nebraska": {
+        "MAE": 2360791.15,
+        "RMSE": 2952930.31,
+        "MAPE": 3.89
+      },
+      "Nevada": {
+        "MAE": 4210921.55,
+        "RMSE": 5289763.41,
+        "MAPE": 4.26
+      },
+      "New Hampshire": {
+        "MAE": 2408096.6,
+        "RMSE": 3020483.59,
+        "MAPE": 4.44
+      },
+      "New Mexico": {
+        "MAE": 2928564.58,
+        "RMSE": 3753322.78,
+        "MAPE": 4.16
+      },
+      "New York": {
+        "MAE": 16529230.3,
+        "RMSE": 19993560.71,
+        "MAPE": 3.87
+      },
+      "North Carolina": {
+        "MAE": 14888951.21,
+        "RMSE": 18868418.1,
+        "MAPE": 4.28
+      },
+      "Ohio": {
+        "MAE": 16127615.21,
+        "RMSE": 20220389.97,
+        "MAPE": 4.47
+      },
+      "Oklahoma": {
+        "MAE": 4919790.61,
+        "RMSE": 5900165.47,
+        "MAPE": 3.42
+      },
+      "Oregon": {
+        "MAE": 4957959.98,
+        "RMSE": 6246505.76,
+        "MAPE": 4.43
+      },
+      "Pennsylvania": {
+        "MAE": 14648732.98,
+        "RMSE": 17772529.05,
+        "MAPE": 4.14
+      },
+      "Rhode Island": {
+        "MAE": 965971.65,
+        "RMSE": 1137248.22,
+        "MAPE": 3.68
+      },
+      "South Carolina": {
+        "MAE": 8759032.27,
+        "RMSE": 10904185.45,
+        "MAPE": 4.58
+      },
+      "South Dakota": {
+        "MAE": 2015640.2,
+        "RMSE": 2581040.19,
+        "MAPE": 7.27
+      },
+      "Tennessee": {
+        "MAE": 13612927.64,
+        "RMSE": 16687987.33,
+        "MAPE": 5.36
+      },
+      "Texas": {
+        "MAE": 33260968.63,
+        "RMSE": 41809972.81,
+        "MAPE": 3.79
+      },
+      "Utah": {
+        "MAE": 3437420.82,
+        "RMSE": 4603500.51,
+        "MAPE": 4.28
+      },
+      "Vermont": {
+        "MAE": 886007.67,
+        "RMSE": 1093281.53,
+        "MAPE": 4.87
+      },
+      "Virginia": {
+        "MAE": 10644703.22,
+        "RMSE": 12992989.24,
+        "MAPE": 3.75
+      },
+      "Washington": {
+        "MAE": 6392698.25,
+        "RMSE": 7978950.47,
+        "MAPE": 3.47
+      },
+      "West Virginia": {
+        "MAE": 2419116.76,
+        "RMSE": 2842211.98,
+        "MAPE": 3.24
+      },
+      "Wisconsin": {
+        "MAE": 6396629.25,
+        "RMSE": 7765975.92,
+        "MAPE": 4.17
+      },
+      "Wyoming": {
+        "MAE": 1164725.52,
+        "RMSE": 1496813.35,
+        "MAPE": 5.56
+      }
+    },
+    "best_params": {
+      "Alabama": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1992.04
+      },
+      "Arizona": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1987.39
+      },
+      "Arkansas": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1913.86
+      },
+      "California": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 2148.27
+      },
+      "Colorado": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1968.15
+      },
+      "Connecticut": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1893.02
+      },
+      "Florida": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 2119.17
+      },
+      "Georgia": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 2057.33
+      },
+      "Illinois": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 2027.9
+      },
+      "Indiana": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1989.18
+      },
+      "Iowa": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1924.78
+      },
+      "Kansas": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1888.58
+      },
+      "Kentucky": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1961.72
+      },
+      "Louisiana": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1974.77
+      },
+      "Maine": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1841.22
+      },
+      "Maryland": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1956.12
+      },
+      "Massachusetts": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1970.92
+      },
+      "Michigan": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 2025.72
+      },
+      "Minnesota": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1958.89
+      },
+      "Mississippi": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1913.21
+      },
+      "Missouri": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1977.65
+      },
+      "Nebraska": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1830.32
+      },
+      "Nevada": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1911.59
+      },
+      "New Hampshire": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1845.18
+      },
+      "New Mexico": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1871.51
+      },
+      "New York": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 2065.02
+      },
+      "North Carolina": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 2049.22
+      },
+      "Ohio": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 2048.27
+      },
+      "Oklahoma": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1946.79
+      },
+      "Oregon": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1923.57
+      },
+      "Pennsylvania": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 2044.47
+      },
+      "Rhode Island": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1761.35
+      },
+      "South Carolina": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1982.02
+      },
+      "South Dakota": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1785.93
+      },
+      "Tennessee": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 2008.67
+      },
+      "Texas": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 2152.48
+      },
+      "Utah": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1894.45
+      },
+      "Vermont": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1718.45
+      },
+      "Virginia": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 2021.25
+      },
+      "Washington": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1972.23
+      },
+      "West Virginia": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1862.75
+      },
+      "Wisconsin": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1960.08
+      },
+      "Wyoming": {
+        "order": "(2, 1, 2)",
+        "seasonal": "(0, 1, 1, 52)",
+        "AIC": 1754.18
+      }
+    }
+  },
+  "_meta": {
+    "n_states": 43,
+    "n_models": 6,
+    "train_shape": [
+      7009,
+      33
+    ],
+    "test_shape": [
+      1763,
+      33
+    ],
+    "cutoff_date": "2023-02-26 00:00:00",
+    "feature_count": 30,
+    "features": [
+      "lag_1",
+      "lag_7",
+      "lag_30",
+      "rmean_4",
+      "rmean_8",
+      "rmean_13",
+      "rmean_26",
+      "rmean_52",
+      "rstd_4",
+      "rstd_8",
+      "rstd_13",
+      "rstd_26",
+      "rstd_52",
+      "rmin_13",
+      "rmax_13",
+      "expanding_mean",
+      "year",
+      "month",
+      "week",
+      "day_of_week",
+      "quarter",
+      "month_sin",
+      "month_cos",
+      "week_sin",
+      "week_cos",
+      "state_code",
+      "is_holiday",
+      "pct_wow",
+      "pct_mom",
+      "pct_yoy"
+    ],
+    "tune_n_iter": 60,
+    "tune_cv_folds": 5
+  }
+}
