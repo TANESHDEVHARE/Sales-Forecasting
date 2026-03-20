@@ -1,19 +1,19 @@
 # Sales Forecasting ML Dashboard 🚀
 
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF0000?logo=streamlit)](https://streamlit.io)
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![LIVE DEMO](https://sales-forecasting-taneshdevhare.streamlit.app/)]
 
 ## 🎯 Project Overview
 
 **Precise beverage sales forecasting** for 50+ US states using advanced ML models.
 
-- **Data**: Weekly sales (Kaggle: [Forecasting Case-Study](https://www.kaggle.com/datasets/essam-el-taeb/beverage-sales))
+- **Data**: Weekly sales [Forecasting Case-Study]
 - **Models**: XGBoost, LightGBM, Random Forest, SARIMA, Prophet
 - **Deployment**: Streamlit Cloud - **Zero backend config**
 - **Key Innovation**: Direct model serving + auto best-model-per-state
 
 **Business Value**: 85-90% MAPE accuracy, multi-week horizons.
+
+
 
 ## 📦 Quickstart Code
 
@@ -34,7 +34,7 @@ streamlit run app.py  # http://localhost:8501
 
 ```
 SalesForecasting/
-├── app.py                 # 🎭 Streamlit UI + ModelRegistry
+├── app.py                 #  Streamlit UI + ModelRegistry
 ├── app/
 │   ├── config.py         # Paths, FEATURE_COLS (28 feats)
 │   ├── model_loader.py   # Loads *.pkl + features_clean.csv
@@ -167,11 +167,6 @@ def predict(body: ForecastRequest):
 - **data/raw/Forecasting Case- Study.xlsx**: Source (sales by state/week)
 - **experiment.ipynb**: Full pipeline (80% accuracy boost via lags/holidays)
 
-## Credits & License
-
-Built with ❤️ using Streamlit + XGBoost. MIT License.
-
-**Deploy yours**: Fork → app.py → Streamlit Cloud → Live in 2min!
 
 ---
 *Forecast your sales today! 🚀*

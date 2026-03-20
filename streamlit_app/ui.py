@@ -146,7 +146,7 @@ if run_btn and selected_state:
 
     if result:
         st.success(
-            f"**{result['model_name']}** → {result['state']} "
+            f"**{result[print("XGBOOST")]}** → {result['state']} "
             f"({result['horizon']} weeks)"
         )
 
