@@ -1,105 +1,71 @@
 """
-Sales Forecasting Dashboard for Streamlit Cloud.
-
-Direct model loading - no FastAPI backend required.
+Sales Forecasting Dashboard
 """
 
 import streamlit as st
 import pandas as pd
-import pickle
+import plotly.express as px
 from pathlib import Path
-
-# Project modules (relative imports)
 import sys
-sys.path.append(str(Path(__file__).parent))  # Add project root to path
 
-from app.config import (
-    ROOT, MODELS_DIR, FEATURES_CSV, RESULTS_CSV, COMPARISON_CSV,
-    FEATURE_COLS, TREE_MODELS, HORIZON, MLFLOW_UI, EXPERIMENT_ID
-)
+sys.path.append(str(Path(__file__).parent.parent))
+
+from app.config import ROOT
 from app.model_loader import ModelRegistry
 from app.predictor import forecast
 
 st.set_page_config(page_title="Sales Forecast", page_icon="📈", layout="wide")
 
-# Cache registry loading (startup once)
+# MLflow Images at Top
+st.markdown("**MLflow Tracked Models**")
+col1, col2 = st.columns(2)
+col1.image("Assets/MLflow - I.png")
+col2.image("Assets/MLflow - II.png")
+
+st.title("📈 Sales Forecasting Dashboard")
+
+
 @st.cache_resource
 def load_registry():
     registry = ModelRegistry()
     registry.load_all()
     return registry
 
-# Load on startup
-try:
-    registry = load_registry()
-    states = registry.states
-    available_models = ["Auto (best per state)"] + (registry.available_models or [])
-    st.success(f"✅ Loaded {len(states)} states, {len(registry.models)} models")
-except Exception as e:
-    st.error(f"❌ Failed to load models/data: {e}")
-    st.stop()
-
-# Sidebar
-st.sidebar.title("Forecast Settings")
-selected_state = st.sidebar.selectbox("State", states)
-selected_model = st.sidebar.selectbox("Model", available_models)
-horizon = st.sidebar.slider("Forecast Horizon (weeks)", 1, 52, HORIZON)
-run_btn = st.sidebar.button("Generate Forecast", type="primary", width='stretch')
-
-# Header
-st.title("📈 Sales Forecasting Dashboard")
-st.markdown("Beverage Sales Forecasting Case Study")
-
-
-
-
-
-# Forecast section
-st.header("Forecast")
-
-if run_btn and selected_state:
-    model_param = None if selected_model.startswith("Auto") else selected_model
-    
-    with st.spinner(f"Generating {horizon}-week forecast for {selected_state}…"):
+if 'registry' not in st.session_state:
+    with st.spinner("Loading models..."):
         try:
-            result = forecast(registry, selected_state, horizon, model_param)
-            
-            st.success(
-                f"**{result['model_name']}** → {result['state']} "
-                f"({result['horizon']} weeks)"
-            )
-            
-            fc_df = pd.DataFrame(result["forecasts"])
-            fc_df["date"] = pd.to_datetime(fc_df["date"])
-            
-            # Chart
-            st.subheader("Forecast Chart")
-            chart_df = fc_df.set_index("date")[["predicted_sales"]].rename(
-                columns={"predicted_sales": "Predicted Sales ($)"}
-            )
-            st.line_chart(chart_df, width='stretch')
-            
-            # Table
-            st.subheader("Forecast Data")
-            display = fc_df.copy()
-            display.columns = ["Date", "State", "Predicted Sales ($)"]
-            display["Predicted Sales ($)"] = display["Predicted Sales ($)"].map("{:,.2f}".format)
-            st.dataframe(display, width='stretch', hide_index=True)
-            
-            # Download
-            csv = fc_df.to_csv(index=False)
-            st.download_button(
-                "⬇️ Download CSV",
-                csv,
-                file_name=f"forecast_{selected_state.lower().replace(' ','_')}_{horizon}w.csv",
-                mime="text/csv",
-            )
-        except Exception as e:
-            st.error(f"Forecast failed: {e}")
-else:
-    st.info("Select a state and click **Generate Forecast** in the sidebar.")
+            st.session_state.registry = load_registry()
+        except:
+            st.error("Run experiment.ipynb first")
+            st.stop()
 
-# Footer
-st.markdown("---")
-st.caption("Deployed on Streamlit Cloud")
+registry = st.session_state.registry
+
+# Simple Sidebar
+state = st.sidebar.selectbox("State", registry.states)
+horizon = st.sidebar.slider("Weeks", 1, 52, 8)
+
+if st.sidebar.button("Generate Forecast"):
+    result = forecast(registry, state, horizon)
+    
+    df = pd.DataFrame(result["forecasts"])
+    df["date"] = pd.to_datetime(df["date"])
+    
+    st.success(f"**{result['model_name']}** - Best Model")
+    
+    col1, col2 = st.columns(2)
+    col1.metric("Total Revenue", f"${df['predicted_sales'].sum():,.0f}")
+    col2.metric("Avg Weekly", f"${df['predicted_sales'].mean():,.0f}")
+    
+    fig = px.line(df, x="date", y="predicted_sales")
+    st.plotly_chart(fig, use_container_width=True)
+    
+    st.subheader("Data")
+    display_df = df.copy()
+    display_df['predicted_sales'] = display_df['predicted_sales'].apply(lambda x: f"${x:,.0f}")
+    st.dataframe(display_df)
+    
+    st.download_button("Download CSV", df.to_csv(index=False), f"{state}_forecast.csv")
+
+
 

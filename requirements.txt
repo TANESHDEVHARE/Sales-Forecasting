@@ -8,3 +8,5 @@ statsmodels
 prophet
 dagshub
 mlflow
+plotly
+pathlib

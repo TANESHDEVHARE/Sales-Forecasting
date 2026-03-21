@@ -2,6 +2,12 @@
 
 [LIVE DEMO](https://sales-forecasting-taneshdevhare.streamlit.app)
 
+## MLflow Dashboard
+![MLflow I](Assets/MLflow%20-%20I.png) ![MLflow II](Assets/MLflow%20-%20II.png)
+
+## End-to-End Pipeline
+![Pipeline](Assets/END%20TO%20END%20Project.png)
+
 ## 🎯 Project Overview
 
 **Precise beverage sales forecasting** for 50+ US states using advanced ML models.
