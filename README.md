@@ -2,6 +2,9 @@
 
 [LIVE DEMO](https://sales-forecasting-taneshdevhare.streamlit.app)
 
+## Tech Stack
+![Tech Stack](Assets/TechStack.png)
+
 ## MLflow Dashboard
 ![MLflow I](Assets/MLflow%20-%20I.png) ![MLflow II](Assets/MLflow%20-%20II.png)
 
@@ -13,7 +16,7 @@
 **Precise beverage sales forecasting** for 50+ US states using advanced ML models.
 
 - **Data**: Weekly sales [Forecasting Case-Study]
-- **Models**: XGBoost, LightGBM, Random Forest, SARIMA, Prophet
+- **Models**: XGBoost, LSTM, Random Forest, SARIMA, Prophet
 - **Deployment**: Streamlit Cloud - **Zero backend config**
 - **Key Innovation**: Direct model serving + auto best-model-per-state
 
