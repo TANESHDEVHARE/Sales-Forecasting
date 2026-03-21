@@ -50,68 +50,9 @@ run_btn = st.sidebar.button("Generate Forecast", type="primary", width='stretch'
 st.title("📈 Sales Forecasting Dashboard")
 st.markdown("Beverage Sales Forecasting Case Study")
 
-# Model comparison 
-with st.expander("📊 Model Comparison (all states avg)", expanded=False):
 
-    col1, col2 = st.columns([4, 1])
 
-    with col2:
-        if MLFLOW_UI:
-            st.link_button("🔗 Open MLflow", MLFLOW_UI)
-        else:
-            st.info("MLflow (local)")
 
-    comp = registry.get_comparison()
-
-    if comp and comp.get("comparison"):
-
-        comp_df = pd.DataFrame(comp["comparison"]).T
-        comp_df.index.name = "Model"
-        comp_df = comp_df.sort_values("RMSE")
-
-        st.dataframe(
-            comp_df[["MAE", "RMSE", "MAPE"]],
-            width='stretch',
-        )
-
-        st.markdown("### 🔍 MLflow Runs")
-
-        for model in comp_df.index:
-            run_id = comp["comparison"][model].get("run_id")
-
-            if run_id and run_id != "N/A":
-                url = f"{MLFLOW_UI}/#/experiments/{EXPERIMENT_ID}/runs/{run_id}"
-                st.markdown(f"[👉 View {model} Run]({url})")
-
-        best_name = comp_df.index[0]
-        best_rmse = comp_df.loc[best_name, "RMSE"]
-
-        st.success(f"Best overall model: {best_name} (RMSE={best_rmse:.2f})")
-
-    else:
-        st.info("Direct links to MLflow")
-
-# Per-state metrics 
-if selected_state:
-    with st.expander(f"📋 Metrics for {selected_state}", expanded=False):
-
-        col1, col2 = st.columns([4, 1])
-
-        with col2:
-            if MLFLOW_UI:
-                st.link_button("🔗 MLflow Experiments", f"{MLFLOW_UI}/#/experiments")
-            else:
-                st.info("MLflow (local)")
-
-        sm = registry.get_state_metrics(selected_state)
-        if sm:
-            sm_df = pd.DataFrame(sm)
-            sm_df = sm_df[["model", "MAE", "RMSE", "MAPE"]].sort_values("RMSE")
-            st.dataframe(sm_df, width='stretch', hide_index=True)
-            if registry.get_best_model_name(selected_state):
-                st.info(f"Best model for {selected_state}: **{registry.get_best_model_name(selected_state)}**")
-        else:
-            st.info("Direct links to MLflow")
 
 # Forecast section
 st.header("Forecast")
