@@ -2,8 +2,7 @@
 
 [LIVE DEMO](https://sales-forecasting-taneshdevhare.streamlit.app)
 
-## Tech Stack
-![Tech Stack](Assets/TechStack.png)
+
 
 ## MLflow Dashboard
 ![MLflow I](Assets/MLflow%20-%20I.png) ![MLflow II](Assets/MLflow%20-%20II.png)
